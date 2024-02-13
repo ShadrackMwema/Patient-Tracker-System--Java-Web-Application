@@ -57,8 +57,8 @@ healthTrace operates as a centralized platform where patients, doctors, and admi
 If you have any questions, suggestions, or would like to discuss potential contributions, feel free to reach out to me:
 
 - 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- 🐦 Twitter: [@YourTwitterHandle](https://twitter.com/your-handle)
+- 💼 LinkedIn: [Shadrack Mwema](https://www.linkedin.com/in/shadrack-mutinda-2b5813239/)
+- 🐦 Twitter: 
 
 I look forward to hearing from you!
 
