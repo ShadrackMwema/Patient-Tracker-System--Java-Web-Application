@@ -10,6 +10,7 @@
 
 	<%@include file="component/maincss.jsp"%>
 	<%@include file="component/utilitiescss.jsp"%>
+	<%@include file="component/utilitiescss.jsp"%>
 
 
 	<!-- normalize.css -->
