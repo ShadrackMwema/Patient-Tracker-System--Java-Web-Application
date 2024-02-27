@@ -11,34 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a8a0a7-85b0-43b3-9e2f-f5faedc937fe" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/allcss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/maincss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/utilitiescss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/article-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/article-img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/article-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/curve-shape-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/curve-shape-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/download-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/element-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/element-img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/element-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/element-img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/element-img-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/health-care-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/person-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/service-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/service-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/service-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/service-icon-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/service-icon-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/service-icon-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/utilitiescss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/utilitiescss.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 8.5.961.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HomePC/Desktop/PROJECT/Patients-Monitoring-System/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 8.5.961.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomePC/Desktop/PROJECT/Patients-Monitoring-System/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HomePC\Desktop\PROJECT\Patients-Monitoring-System\src\main\webapp" />
@@ -211,7 +188,10 @@
       <option name="presentableId" value="Default" />
       <updated>1707855437727</updated>
       <workItem from="1707855438529" duration="201000" />
-      <workItem from="1707855648623" duration="12423000" />
+      <workItem from="1707855648623" duration="14376000" />
+      <workItem from="1707997312689" duration="4129000" />
+      <workItem from="1708966367925" duration="1542000" />
+      <workItem from="1709019653046" duration="5343000" />
     </task>
     <task id="LOCAL-00001" summary="First commit....updating dependencies">
       <option name="closed" value="true" />
@@ -229,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707883919674</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1707921630021</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707921630021</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
