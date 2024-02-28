@@ -157,6 +157,8 @@
     .title-box .title-box-name{
         font-size: 32px;
     }
+
+
 }
 
 .resize-animation-stopper *{

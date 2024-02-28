@@ -27,7 +27,7 @@
 
                 <ul class="navbar-nav d-flex align-items-center">
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white nav-active text-nowrap">User</a>
+                        <a href="user_login.jsp" class="nav-link text-white nav-active text-nowrap">User</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text-white text-nowrap">Admin</a>
