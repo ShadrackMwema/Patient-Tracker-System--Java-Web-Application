@@ -35,9 +35,13 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link text-white text-nowrap">Doctor</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-white text-nowrap">Apointment</a>
-                    </li>
+                    </li >
+                    <div class="AButton"> <button class="Appointment" style="vertical-align:middle; margin-left: 10px;"><span>Appointment</span></button>
+                    </div>
+
+
+
+                   </li>
 
                 </ul>
             </div>

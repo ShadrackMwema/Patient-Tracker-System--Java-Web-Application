@@ -14,9 +14,9 @@
 
 
 :root{
-    --clr-blue: #458ff6;
+    --clr-blue: #53cae3;
     --clr-black: #000;
-    --clr-white: #fff;
+    --clr-white: #0c0c0c;
     --clr-gray: #7d7987;
     --clr-dark-blue: #233348;
     --clr-dark-purple: #1f1534;
@@ -93,6 +93,52 @@ button{
     position: relative;
     min-height: 100vh;
     background-color: var(--clr-blue);
+}
+
+
+
+ .Appointment {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.Appointment span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.Appointment span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+.AButton{
+
+}
+
+.Appointment:hover span {
+    padding-right: 3.55em;
+}
+
+.Appointment:hover span:after {
+    opacity: 4;
+    right: 0;
 }
 .header *{
     color: var(--clr-white);
