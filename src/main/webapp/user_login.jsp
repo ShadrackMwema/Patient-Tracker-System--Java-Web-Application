@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -15,8 +16,98 @@
 
 	<!-- normalize.css -->
 	<style>
+		.Signin{
+			padding-top: 40px;
+
+		}
+		.button {
+			margin-top: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 10px 40px;
+
+			position: relative;
+			overflow: hidden;
+			border-radius: 10rem;
+			transition: all 0.02s;
+			font-weight: bold;
+			color: rgb(37, 37, 37);
+			z-index: 0;
+			box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+			margin: auto; /* Add this line to horizontally center the button */
+		}
+
+
+		.button:hover {
+			background: rgb(193, 228, 248);
+			color: rgb(33, 0, 85);
+		}
+
+		.button:active {
+			transform: scale(0.97);
+		}
+
+		.hoverEffect {
+			position: absolute;
+			bottom: 0;
+			top: 0;
+			left: 0;
+			right: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 1;
+		}
+
+		.hoverEffect div {
+			background: rgb(222,0,75);
+			background: linear-gradient(90deg, rgba(222,0,75,1) 0%, rgba(191,70,255,1) 49%, rgba(0,212,255,1) 100%);
+			border-radius: 40rem;
+			width: 10rem;
+			height: 10rem;
+			transition: 0.4s;
+			filter: blur(20px);
+			animation: effect infinite 3s linear;
+			opacity: 0.5;
+		}
+
+		.button:hover .hoverEffect div {
+			width: 8rem;
+			height: 8rem;
+		}
+
+		@keyframes effect {
+
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		heading{
+			color: #fff;
+			font-size: 2.3em;
+			justify-content: center;
+			display: flex;
+			margin: 60px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: .5s ease-in-out;
+		}
 		.card-body {
-			padding: 20px; /* Adjust padding according to your design */
+			background: linear-gradient(90deg, #296cf5, #53cae3);
+			position: relative;
+			height: 450px;
+			width: 380px;
+			box-shadow: 0px 0px 24px #5C5696;
+			padding: 30px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+			/* Adjust padding according to your design */
 		}
 
 		.text-center {
@@ -70,8 +161,8 @@
 		}
 
 		.my-bg-color {
-			background-color: #007bff; /* Change to your desired background color */
-			color: #fff; /* Change to your desired text color */
+			background-color: #647272; /* Change to your desired background color */
+			color: #0c0c0c; /* Change to your desired text color */
 		}
 
 		.text-decoration-none {
@@ -95,13 +186,14 @@
 
 
 
-	</header>
+
 
 		<div class="container">
-			<div class="banner-content">
+
+			<div class="d-flex justify-content-center">
 				<div class="card-body">
 					<!-- <p class="fs-4 text-center">User Login</p> -->
-
+					<h1 class="heading"> Welcome Back! </h1>
 					<!-- for message -->
 					<!-- success message -->
 					<c:if test="${not empty successMsg }">
@@ -115,8 +207,6 @@
 						<c:remove var="errorMsg" scope="session" />
 					</c:if>
 					<!-- end of message -->
-
-
 
 					<!-- boostrap form -->
 					<form action="userLogin" method="post">
@@ -132,18 +222,26 @@
 								name="password" type="password" placeholder="Enter password"
 								class="form-control">
 						</div>
+						<div class="Signin"><button class="button">
+							Sign in
+							<div class="hoverEffect">
+								<div>
+								</div>
+							</div></button></div>
 
-						<button type="submit"
-								class="btn col-md-12 text-white my-bg-color">Submit</button>
+
 					</form>
+
 					<br>Don't have an account? <a href="signup.jsp"
 												  class="text-decoration-none">create one</a>
 					<!-- end of boostrap form -->
 				</div>
-
 			</div>
 
+
 		</div>
+
+
 
 
 
