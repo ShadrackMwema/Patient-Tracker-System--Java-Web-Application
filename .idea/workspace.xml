@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Patient-Monitoring-System:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/admin/servlet/AdminLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/admin/servlet/AdminLogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/admin/servlet/DeleteDoctorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/admin/servlet/DoctorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/admin/servlet/SpecialistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/admin/servlet/UpdateDoctorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/AppointmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorChangePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorEditProfileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/UpdateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/entity/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/entity/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/entity/Specialist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/ChangePasswordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/MyNewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/503uKmQN8xls.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/8SA2Sm3o5j5z.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/jz3x9DhP6jJ7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/l4gqiphJ7KXZ.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/per8hcNp7jdl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/3GhZRezu5PGQ.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/KCLK4dfD6swY.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/LQvmXcZndSyT.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/WAGOIDfFd8j4.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/WXKfscNmvTub.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/Wr1pkGyZpXcH.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/c21s9GjV970J.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/elMOAuLbNmnL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/fonts/u8Z5kgUQ6yW2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/3RmE0XIMMJUw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/4ELn6aGcSXyc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/7zvDN2okWbny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/8EVXeyuuSGX9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/9TRBMwv1a4Uo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/ACUy7SBwOgVJ.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/C2qiwJAyWHFC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/CQTu2RvHdeLG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/E6Q8uNEQFsQB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/FDKF4ZzzQYmy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/Flq6os4YAaBz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/O17Vn9CfiuY9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/TA9IX2SuQDDE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/V9OAuGdBb0Qh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/Wv4lRRp9kTlY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/ZgaLkZzsW4UO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/bCbzgIdT2zSr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/bMtEsI0oKLI2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/kjCenhz8dzVq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/koqJmgGOcbu5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/pQ9KIPEo2SRU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/sUrsdYtCdzK0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/t5PDVbqRjEwa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/uJD7OhxhbIeL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/wOzGrHlLUW8k.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/x4gduUIPmcpV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/xnykgxRdHHCT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/0vgv07pFj0mD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/3hqrMYtj3L7k.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/EdmIX6LYV57Z.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/FaMU0TPCXw3s.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/GYGjIdlUsTny.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/L6AtHWFwgaJi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/Mj5aD5qfUaBz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/Mx6K2iHOd1T0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/NMTwUwpkUl6s.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/Pa00Ag52WG49.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/Py4ZAUNCz9md.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/RcrlNDQpkV64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/cg3TL0eNXCcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/iQS0kXS7Zevn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/ze8gppJZjEMa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/js/zuTzDoxkbBLx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/doctor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/curve-shape-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/curve-shape-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/download-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/element-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/element-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/element-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/element-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/element-img-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/health-care-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/service-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/service-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/service-icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/service-icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/service-icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/service-icon-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/allcss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footersimple.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/comment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doctor_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doctor_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doctor_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hospital1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hospital2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hospital3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hospital4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/picDoc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/picDoc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/talalwasim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/wdoc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view_appointment.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dP8yTcfDauRXGXpbkK5Uu4LBss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 8.5.961.executor": "Run",
+    "Tomcat Server.navbar.jsp (1).executor": "Run",
+    "Tomcat Server.navbar.jsp.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HomePC/Desktop/PROJECThT/Patient-Monitoring-System/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HomePC\Desktop\PROJECThT\Patient-Monitoring-System\src\main\webapp" />
+      <recent name="C:\Users\HomePC\Desktop\PROJECThT\Patient-Monitoring-System\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.961">
+    <configuration name="Tomcat 8.5.961" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.961" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Patient-Monitoring-System:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Patient_Monitoring_System_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="72bc7023-fc2f-45aa-872a-cb079f8f2372" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62841" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Patient-Monitoring-System:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="navbar.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.961" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/doctor/navbar.jsp" />
+      <deployment>
+        <artifact name="Patient-Monitoring-System:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Patient_Monitoring_System_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9eb5044d-1f37-4f09-b453-a96bd8fd2808" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Patient-Monitoring-System:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="navbar.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.961" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/doctor/navbar.jsp" />
+      <deployment>
+        <artifact name="Patient-Monitoring-System:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Patient_Monitoring_System_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="bc315202-7c7e-4f85-9312-189323f51261" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Patient-Monitoring-System:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.navbar.jsp (1)" />
+        <item itemvalue="Tomcat Server.navbar.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="" />
+      <created>1709898607015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709898607015</updated>
+      <workItem from="1709898608031" duration="562000" />
+      <workItem from="1709899192345" duration="385000" />
+      <workItem from="1709900359551" duration="3863000" />
+      <workItem from="1710085094412" duration="15000" />
+      <workItem from="1710085155648" duration="139000" />
+      <workItem from="1710085363362" duration="21406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/component/navbar.jsp</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp</url>
+          <line>135</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
+          <line>93</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>
