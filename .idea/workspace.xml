@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" afterDir="false" />
-    </list>
+    <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +290,7 @@
       <workItem from="1709900359551" duration="3863000" />
       <workItem from="1710085094412" duration="15000" />
       <workItem from="1710085155648" duration="139000" />
-      <workItem from="1710085363362" duration="24679000" />
+      <workItem from="1710085363362" duration="25246000" />
     </task>
     <task id="LOCAL-00001" summary="Updating dashboards and navbars">
       <option name="closed" value="true" />
@@ -303,11 +300,30 @@
       <option name="project" value="LOCAL" />
       <updated>1710143907854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updating dashboards and navbars">
+      <option name="closed" value="true" />
+      <created>1710146146767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710146146767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating dashboards and navbars" />
