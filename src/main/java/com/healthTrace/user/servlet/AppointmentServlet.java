@@ -42,14 +42,14 @@ public class AppointmentServlet extends HttpServlet{
 	if(f==true) {
 		
 		session.setAttribute("successMsg", "Appointment is recorded Successfully.");
-		resp.sendRedirect("user_appointment.jsp");
+		resp.sendRedirect("logged_in_appointment.jsp");
 		
 		
 	}
 	else {
 		
 		session.setAttribute("errorMsg", "Something went wrong on server!");
-		resp.sendRedirect("user_appointment.jsp");
+		resp.sendRedirect("logged_in_appointment.jsp");
 		
 	}
 	

@@ -300,7 +300,7 @@ public class DoctorDAO {
 
 		try {
 
-			String sql = "select * from user_details";
+			String sql = "select * from user";
 			PreparedStatement pstmt = this.conn.prepareStatement(sql);
 
 			ResultSet resultSet = pstmt.executeQuery();

@@ -34,10 +34,10 @@ public class UserRegisterServlet extends HttpServlet {
 
 			// Create Connection with DB
 			UserDAO userDAO = new UserDAO(DBConnection.getConn());
-			
+
 			//get session
 			HttpSession session = req.getSession();
-			
+
 
 			// call userRegister() and pass user object to insert or save user into DB.
 			boolean f = userDAO.userRegister(user); // userRegister() method return boolean type value
@@ -50,10 +50,10 @@ public class UserRegisterServlet extends HttpServlet {
 				// out.println("success");
 
 			} else {
-				
+
 				session.setAttribute("errorMsg", "Something went wrong!");
 				resp.sendRedirect("signup.jsp");//which page you want to show this msg
-				
+
 				//System.out.println("Error! Something went wrong");
 				// out.println("error");
 			}

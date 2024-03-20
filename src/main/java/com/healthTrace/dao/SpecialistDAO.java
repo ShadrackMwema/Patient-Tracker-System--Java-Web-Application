@@ -23,7 +23,7 @@ public class SpecialistDAO {
 		
 		try {
 			
-			String sql = "insert into specialist (specialist_name) values(?)";
+			String sql = "insert into specialist (specialistName) values(?)";
 			PreparedStatement pstmt = this.conn.prepareStatement(sql);
 			
 			pstmt.setString(1, sp);

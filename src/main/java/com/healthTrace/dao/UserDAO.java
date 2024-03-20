@@ -21,7 +21,7 @@ public class UserDAO {
 
 		try {
 			// insert user in db
-			String sql = "insert into user_details(full_name, email, password) values(?,?,?)";
+			String sql = "insert into user(fullName, email, password) values(?,?,?)";
 
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, user.getFullName());
@@ -51,7 +51,7 @@ public class UserDAO {
 		User user = null;
 
 		try {
-			String sql = "select * from user_details where email=? and password=?";
+			String sql = "select * from user where email=? and password=?";
 
 			PreparedStatement pstmt = this.conn.prepareStatement(sql);
 			pstmt.setString(1, email);
@@ -70,7 +70,7 @@ public class UserDAO {
 				// (1) means db table colm index number 1 which is id
 				// getString() takes both column indexNumber or columnLabel name...
 				user.setId(resultSet.getInt("id"));
-				user.setFullName(resultSet.getString("full_name"));
+				user.setFullName(resultSet.getString("fullName"));
 				user.setEmail(resultSet.getString("email"));
 				user.setPassword(resultSet.getString("password"));
 
@@ -91,7 +91,7 @@ public class UserDAO {
 
 		try {
 
-			String sql = "select * from user_details where id=? and password=?";
+			String sql = "select * from user where id=? and password=?";
 			PreparedStatement pstmt = this.conn.prepareStatement(sql);
 			pstmt.setInt(1, userId);
 			pstmt.setString(2, oldPassword);
@@ -117,7 +117,7 @@ public class UserDAO {
 
 		try {
 
-			String sql = "update user_details set password=? where id=?";
+			String sql = "update user set password=? where id=?";
 			PreparedStatement pstmt = this.conn.prepareStatement(sql);
 			pstmt.setString(1, newPassword);
 			pstmt.setInt(2, userId);

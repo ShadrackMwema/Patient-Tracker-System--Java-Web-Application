@@ -9,40 +9,40 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.healthTrace.dao.DoctorDAO;
+import com.healthTrace.db.DBConnection;
 import com.healthTrace.entity.Doctor;
 
-@WebServlet("/doctorLogin")
-public class DoctorLoginServlet extends HttpServlet {
+	@WebServlet("/doctorLogin")
+	public class DoctorLoginServlet extends HttpServlet {
 
-	// Hardcoded email and password
-	private static final String EMAIL = "doctor@example.com";
-	private static final String PASSWORD = "password";
+		@Override
+		protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+			//get email and password which is coming from doctor_login.jsp page
+			String email = req.getParameter("email");
+			String password = req.getParameter("password");
 
-		// Get email and password from the request
-		String email = req.getParameter("email");
-		String password = req.getParameter("password");
+			//create session
+			HttpSession session = req.getSession();
 
-		// Create session
-		HttpSession session = req.getSession();
+			//create DB connection
+			DoctorDAO docDAO = new DoctorDAO(DBConnection.getConn());
 
-		// Check if provided credentials match hardcoded values
-		if (EMAIL.equals(email) && PASSWORD.equals(password)) {
-			// Create a dummy Doctor object
-			Doctor doctor = new Doctor();
-			doctor.setEmail(email);
-			// Set any other doctor information if needed
+			//call loginDoctor() method for doctor login which method declared in DoctorDAO
+			Doctor doctor = docDAO.loginDoctor(email, password);
 
-			// Store the logged in doctor object in session
-			session.setAttribute("doctorObj", doctor);
-			// Redirect to the doctor's dashboard
-			resp.sendRedirect("doctor/index.jsp");
-		} else {
-			// If credentials don't match, set error message in session and redirect back to login page
-			session.setAttribute("errorMsg", "Invalid email or password");
-			resp.sendRedirect("doctor_login.jsp");
+			if (doctor != null) {
+				//means doctor is valid or exist
+				//then store particular logged in doctor object in session
+				session.setAttribute("doctorObj", doctor);
+				//and redirect the particular doctor index page which is reside doctor folder
+				resp.sendRedirect("doctor/index.jsp");//doctor index means dashboard of doctors
+			} else {
+				session.setAttribute("errorMsg", "Invalid email or password");
+				resp.sendRedirect("doctor_login.jsp");
+			}
+
 		}
+
 	}
-}

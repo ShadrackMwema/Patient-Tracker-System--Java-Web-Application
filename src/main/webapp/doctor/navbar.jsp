@@ -13,7 +13,8 @@
 			<div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
 		</div>
 
-		<a href="index.html" class="logo"><b>health<span>Trace</span></b></a>
+		<a href="index.jsp" class="logo" style="text-decoration: none;"><b>health<span>Trace</span></b></a>
+
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false"

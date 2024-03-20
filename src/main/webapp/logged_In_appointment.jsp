@@ -1,5 +1,8 @@
 <%@page import="com.healthTrace.db.DBConnection"%>
 <%@page import="java.sql.Connection"%>
+<%@ page import="com.healthTrace.dao.DoctorDAO" %>
+<%@ page import="com.healthTrace.entity.Doctor" %>
+<%@ page import="java.util.List" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 
@@ -65,14 +68,38 @@
     <script async="" src="Dashassets/js/0vgv07pFj0mD.js"></script><script src="Dashassets/js/Mx6K2iHOd1T0.js"></script>
 
     <!-- customs css for this page -->
-
 <style>
-    .clickable-box {
-    cursor: pointer;
-}
+
+    /* CSS */
+    .button-10 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+        border-radius: 6px;
+        border: none;
+
+        color: #fff;
+        background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+        background-origin: border-box;
+        box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .button-10:focus {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
+    }
+
 </style>
+
 </head>
 <body>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-danger"> -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top"style="background-color: #348aa1;padding-top: 50px;padding-bottom: 30px;padding-left: 60px;padding-right: 60px">
     <div class="container-fluid">
         <div class="sidebar-toggle-box">
@@ -94,23 +121,23 @@
                 <!-- if user not logged in then user can see below items -->
                 <!-- to create dynamic navbar -->
 
-                <!-- means user is log in -->
-                <li class="nav-item"><p class="nav-link active"
-                                        aria-current="page" ><i class="fa-regular fa-face-smile-beam"></i> Welcome Back!</p></li>
+                    <!-- means user is log in -->
+                    <li class="nav-item"><p class="nav-link active"
+                                            aria-current="page" ><i class="fa-regular fa-face-smile-beam"></i> Welcome Back!</p></li>
 
 
-                <div class="dropdown">
-                    <button class="btn btn-outline-light dropdown-toggle" type="button"
-                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                        <i class="fa-solid fa-circle-user"></i> ${userObj.fullName}
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="change_password.jsp">Change Password</a></li>
-                        <li><a class="dropdown-item" href="userLogout">Logout</a></li>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            <i class="fa-solid fa-circle-user"></i> ${userObj.fullName}
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="change_password.jsp">Change Password</a></li>
+                            <li><a class="dropdown-item" href="userLogout">Logout</a></li>
 
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
 
 
@@ -134,7 +161,7 @@
     <div id="sidebar" class="nav-collapse "style="border-radius: 10px;height: 600px;width: 210px;">
 
         <ul class="sidebar-menu" id="nav-accordion">
-            <p class="centered"><a href="userindex.jsp"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
+            <p class="centered"><a href="profile.html"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
             <c:if test="${not empty userObj}">
                 <div class="centered" style="font-size: 24px;color: ghostwhite"> <!-- Adjust font size as needed -->
                         ${userObj.fullName}
@@ -143,10 +170,11 @@
             <li class="mt">
                 <a class="active" href="userindex.jsp">
                     <i class="fa fa-dashboard"></i>
-                    <span>Overview</span>
+                    <span>Dashboard</span>
                 </a>
             </li>
             </li>
+
             <li class="sub-menu">
                 <a href="logged_In_appointment.jsp">
                     <i class="fa fa-book"></i>
@@ -155,18 +183,14 @@
 
             </li>
 
-            <li>
 
 
             <li class="sub-menu">
-                <a href="javascript:;">
+                <a href="chatroom.jsp">
                     <i class="fa fa-comments-o"></i>
                     <span>Chat Room</span>
                 </a>
-                <ul class="sub">
-                    <li><a href="lobby.html">Lobby</a></li>
-                    <li><a href="chat_room.html"> Chat Room</a></li>
-                </ul>
+
             </li>
         </ul>
 
@@ -176,125 +200,141 @@
 
 
 <section id="main-content">
-    <section class="wrapper">
-
-
-        <div class="row mt">
-
-            <div class="col-md-4 col-sm-4 mb" href="">
-                <div class="grey-panel pn donut-chart">
-                    <div class="grey-header">
-                        <h5>USER DETAILS</h5>
-                    </div>
-
-                    <div class="card my-card">
-                        <div class="card-body text-center text-success">
-                            <i class="fa-solid fa-user-plus fa-10x"></i><br>
-                            <p class="fs-4 text-center">
-                                Total:
-                            </p>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-             <div class="col-md-4 col-sm-4 mb">
-                 <a href="viewAppointment.jsp" style="text-decoration: none; color: inherit;">
-
-                 <div class="darkblue-panel pn clickable-box">
-                        <div class="darkblue-header">
-                            <h5>VIEW APPOINTMENTS</h5>
-                        </div>
-                        <div class="card my-card">
-                            <div class="card-body text-center text-success">
-                                <i class="fa-solid fa-calendar-check fa-10x"></i><br>
-                                <p class="fs-4 text-center">Total Appointment <br></p>
-                            </div>
-                        </div>
-                    </div>
-                 </a>
-                </div>
-
-
-            <div class="col-md-4 col-sm-4 mb">
-
-                <div class="green-panel pn">
-                    <div class="green-header">
-                        <h5>CHAT ROOM</h5>
-                    </div>
-                    <div class="card my-card">
-                        <div class="card-body text-center text-success">
-                            <i class="fa-solid fa-comments fa-10x"></i><br>
-                            <p class="fs-4 text-center">
-
-                                Total messages <br> </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <a href="logged_In_appointment.jsp" class="button-10">Make Appointment</a>
+        <div style="margin-left: 10px;"></div> <!-- Adjust the margin value as needed -->
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="viewAppointment.jsp" class="button-10">View Appointment</a>
         </div>
 
-        <div class="row"style="margin-top: 20px">
+    </div>
+
+    <!-- col-2 --><div style="position: relative;margin: 30px;background-color: #afc8fa;padding: 10px">
+
+ <!-- HTML !-->
+              <!-- message print -->
+                <!-- for success msg -->
+                <c:if test="${not empty successMsg }">
+                    <p class="text-center text-success fs-5">${successMsg}</p>
+                    <c:remove var="successMsg" scope="session" />
+                </c:if>
+
+                <!-- for error msg -->
+                <c:if test="${not empty errorMsg }">
+                    <p class="text-center text-danger fs-5">${errorMsg}</p>
+                    <c:remove var="errorMsg" scope="session" />
+                </c:if>
+                <!-- End of message print -->
 
 
-            <div class="col-md-8 mb"STYLE="margin-top: 20px">
-                <div class="message-p pn">
-                    <div class="message-header">
-                        <h5>DIRECT MESSAGE(DM)</h5>
+                <!-- boostrap form -->
+                <form class="row g-3" action="addAppointment" method="post">
+
+                    <!-- take user Id in hidden field -->
+                    <input type="hidden" name="userId" value="${ userObj.id }">
+
+                    <div class="col-md-6">
+                        <label class="form-label">Full Name</label> <input required="required"
+                                                                           name="fullName" type="text" placeholder="Enter full name"
+                                                                           class="form-control">
+
                     </div>
-                    <div class="row">
-                        <div class="col-md-3 centered hidden-sm hidden-xs">
-                            <i class="fa-solid fa-user  fa-4x"style="color: #44444b"></i>
 
-                        </div>
-                        <div class="col-md-9">
-                            <p>
-                                <name>Doctor Wesonga</name>
-                                sent you a message.
-                            </p>
-                            <p class="small">3 hours ago</p>
-                            <p class="message">Hello Doctor Wesonga. I think am going on just fine after the chemo.Thanks so much Doc...looking forward to see you on wednesday</p>
-                            <form class="form-inline" role="form">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="exampleInputText" placeholder="Reply Doc">
-                                </div>
-                                <button type="submit" class="btn btn-default">Send</button>
-                            </form>
-                        </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Gender</label> <select
+                            class="form-control" name="gender" required="required">
+                        <option selected="selected" disabled="disabled">---Select
+                            Gender---</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
                     </div>
-                </div>
 
-            </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Age</label> <input name="age"
+                                                                     required="required"	type="number" placeholder="Enter your Age" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Appointment Date</label> <input
+                            required="required"	name="appointmentDate" type="date" class="form-control">
+                    </div>
 
-        </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Email</label> <input name="email"
+                                                                       required="required"	type="email" placeholder="Enter email" class="form-control">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Phone</label> <input name="phone"
+                                                                       required="required"	type="number" maxlength="11" placeholder="Enter Mobile no."
+                                                                       class="form-control">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Diseases</label> <input
+                            required="required"	name="diseases" type="text" placeholder="Enter diseases"
+                            class="form-control">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Doctor</label> <select
+                            required="required" class="form-control" name="doctorNameSelect">
+                        <option selected="selected" disabled="disabled">---Select---</option>
+
+                        <%
+                            DoctorDAO doctorDAO = new DoctorDAO(DBConnection.getConn());
+                            List<Doctor> listOfDoctor = doctorDAO.getAllDoctor();
+                            for(Doctor d : listOfDoctor)
+
+                            {%>
+                        <!-- actually we take id of doctor from doctor table -->
+                        <option value="<%= d.getId() %>"> <%= d.getFullName()%> (<%= d.getSpecialist() %>) </option>
+
+                        <%
+                            }
+                        %>
+
+                        <!-- <option>Doctor name</option> -->
+                    </select>
+                    </div>
 
 
+                    <!-- below are visible to right side part of form-->
+
+                    <div class="col-md-12">
+                        <label class="form-label">Full Address</label>
+                        <textarea name="address" required="required" class="form-control" rows="3" cols=""></textarea>
+                    </div>
 
 
-        </div>
+                    <c:if test="${empty userObj}">
+                        <div class="centered">
+                            <a href="user_login.jsp" class="btn btn-outline-primary">Submit</a>
+                        </div>
+                    </c:if>
 
 
+                    <c:if test="${not empty userObj}">
 
-        </div>
+                        <div class="centered">
+                            <button type="submit" class="btn btn-outline-primary">Submit</button>
+                        </div>
 
-    </section>
+                    </c:if>
+
+                </form>
+
+                <!-- end of boostrap form -->
+
+    </div>
 </section>
-
 
 <footer class="site-footer">
     <div class="text-center">
         <p>
             © Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
         </p>
-        <div class="credits">
 
-            Created with Dashio template by <a href="https://templatemag.com/">TemplateMag</a>
-        </div>
         <a href="index.html#" class="go-top">
             <i class="fa fa-angle-up"></i>
         </a>

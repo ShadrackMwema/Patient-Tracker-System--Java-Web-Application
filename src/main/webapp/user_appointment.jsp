@@ -15,6 +15,93 @@
 
 <!DOCTYPE html>
 <html>
+
+<link href="Dashassets/images/7zvDN2okWbny.png" rel="icon">
+<link href="Dashassets/images/V9OAuGdBb0Qh.png" rel="apple-touch-icon">
+
+<link href="Dashassets/css/503uKmQN8xls.css" rel="stylesheet">
+
+<link href="Dashassets/css/per8hcNp7jdl.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../Dashassets/css/bnsLJI6BAg3h.css">
+<link rel="stylesheet" type="text/css" href="../Dashassets/css/jz3x9DhP6jJ7.css">
+
+<link href="Dashassets/css/9NAoFREDLVA6.css" rel="stylesheet">
+<link href="Dashassets/css/l4gqiphJ7KXZ.css" rel="stylesheet">
+
+
+<!-- Boostrap CSS -->
+<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		crossorigin="anonymous">
+<!-- End Boostrap CSS -->
+
+<!-- Font awesome css -->
+<link rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+	  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+	  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- End Font awesome css -->
+
+<!--font awesome css-->
+<link rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Boostrap JS -->
+<%--<script--%>
+<%--		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"--%>
+<%--		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"--%>
+<%--		crossorigin="anonymous"></script>--%>
+
+
+<script async="" src="Dashassets/js/0vgv07pFj0mD.js"></script><script src="Dashassets/js/Mx6K2iHOd1T0.js"></script>
+
+<!-- customs css for this page -->
+
+<link href="Dashassets/images/7zvDN2okWbny.png" rel="icon">
+<link href="Dashassets/images/V9OAuGdBb0Qh.png" rel="apple-touch-icon">
+
+<link href="Dashassets/css/503uKmQN8xls.css" rel="stylesheet">
+
+<link href="Dashassets/css/per8hcNp7jdl.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../Dashassets/css/bnsLJI6BAg3h.css">
+<link rel="stylesheet" type="text/css" href="../Dashassets/css/jz3x9DhP6jJ7.css">
+
+<link href="Dashassets/css/9NAoFREDLVA6.css" rel="stylesheet">
+<link href="Dashassets/css/l4gqiphJ7KXZ.css" rel="stylesheet">
+
+
+<!-- Boostrap CSS -->
+<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		crossorigin="anonymous">
+<!-- End Boostrap CSS -->
+
+<!-- Font awesome css -->
+<link rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+	  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+	  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- End Font awesome css -->
+
+<!--font awesome css-->
+<link rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Boostrap JS -->
+<%--<script--%>
+<%--		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"--%>
+<%--		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"--%>
+<%--		crossorigin="anonymous"></script>--%>
+
+
+<script async="" src="Dashassets/js/0vgv07pFj0mD.js"></script><script src="Dashassets/js/Mx6K2iHOd1T0.js"></script>
+
+<!-- customs css for this page -->
+
 <head>
 <meta charset="UTF-8">
 <title>User Appointment Page</title>
@@ -23,10 +110,7 @@
 
 <!-- customs css for this page -->
 <style type="text/css">
-.my-card {
-	box-shadow: 0px 0px 10px 1px maroon;
-	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
-}
+
 
 /* backgournd image css */
 
@@ -49,18 +133,14 @@
 
 	<!-- start 1st Div -->
 
-	<div class="container-fluid my-bg-img p-5">
-		<!-- css background image -->
-		<p class="text-center fs-2 text-white"></p>
 
-	</div>
 
 	<!-- end of 1st Div -->
 
 
 	<!-- 2nd Div -->
 
-	<div class="container p-3">
+	<div class="container p-3" style="margin-top: 20px">
 		<p class="fs-2"></p>
 
 		<div class="row">
@@ -69,13 +149,13 @@
 			<div class="col-md-6 p-5">
 				<!-- for Background image -->
 				<!-- <img alt="" src="img/picDoc.jpg" width="500px" height="400px"> -->
-				<img alt="" src="img/doc3.jpg" width="370" height="">
+				<img alt="" src="img/Appoint.png" style="border-radius:10px">
 			</div>
 			
 			<!-- col-2 -->
 			<div class="col-md-6">
 				<div class="card my-card">
-					<div class="card-body">
+					<div class="card">
 						<p class="text-center fs-3">User Appointment</p>
 
 						<!-- message print -->
