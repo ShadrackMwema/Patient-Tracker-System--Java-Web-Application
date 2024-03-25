@@ -100,25 +100,24 @@
 	<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-danger"> -->
 	<%@include file="navbar.jsp"%>
 	<aside>
-		<div id="sidebar" class="nav-collapse "style="border-radius: 10px;height: 600px">
+		<div id="sidebar" class="nav-collapse "style="border-radius: 10px;height: 600px;width: 210px;">
 
 			<ul class="sidebar-menu" id="nav-accordion">
-				<p class="centered"><a href="profile.html"><i class="fa-solid fa-user fa-6x"></i> </a></p>
-				<h5 class="centered">Sam Soffes</h5>
+				<p class="centered"><a href="index.jsp"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
+				<c:if test="${not empty doctorObj}">
+					<div class="centered" style="font-size: 24px;color: ghostwhite"> <!-- Adjust font size as needed -->
+							${doctorObj.fullName}
+					</div>
+				</c:if>
 				<li class="mt">
-					<a class="active" href="index.html">
+					<a class="active" href="index.jsp">
 						<i class="fa fa-dashboard"></i>
-						<span>Dashboard</span>
+						<span>Overview</span>
 					</a>
 				</li>
 				</li>
 				<li class="sub-menu">
-					<a href="javascript:;">
-						<i class="fa fa-cogs"></i>
-						<span>Patients</span>
-					</a></li>
-				<li class="sub-menu">
-					<a href="javascript:;">
+					<a href="patient.jsp">
 						<i class="fa fa-book"></i>
 						<span>Appointments</span>
 					</a>
@@ -126,29 +125,26 @@
 				</li>
 
 				<li>
-					<a href="inbox.html">
-						<i class="fa fa-envelope"></i>
-						<span>Mail </span>
-						<span class="label label-theme pull-right mail-info">2</span>
-					</a>
-				</li>
 
 				<li class="sub-menu">
 					<a href="javascript:;">
 						<i class="fa fa-comments-o"></i>
 						<span>Chat Room</span>
 					</a>
-					<ul class="sub">
-						<li><a href="lobby.html">Lobby</a></li>
-						<li><a href="chat_room.html"> Chat Room</a></li>
-					</ul>
+
 				</li>
+				<li class="sub-menu">
+					<a href="javascript:;">
+						<i class="fa fa-user-doctor"></i>
+						<span>Personal Details</span>
+					</a>
+
+				</li>
+
 			</ul>
 
 		</div>
 	</aside>
-
-
 
 	<section id="main-content">
 		<section class="wrapper">
@@ -157,9 +153,11 @@
 			<div class="row mt">
 
 				<div class="col-md-4 col-sm-4 mb">
+					<a href="personalDetails.jsp" style="text-decoration: none; color: inherit;">
+
 					<div class="grey-panel pn donut-chart">
 						<div class="grey-header">
-							<h5>USERS/PATIENTS</h5>
+							<h5>PERSONAL DETAILS</h5>
 						</div>
 
 								<div class="card my-card">
@@ -173,27 +171,31 @@
 
 
 					</div>
-
+					</a>
 				</div>
 
 				<div class="col-md-4 col-sm-4 mb">
-					<div class="darkblue-panel pn">
-						<div class="darkblue-header">
-							<h5>APPOINTMENTS</h5>
-						</div>
-						<div class="card my-card">
-							<div class="card-body text-center text-success">
-								<i class="fa-solid fa-calendar-check fa-10x"></i><br>
-								<p class="fs-4 text-center">
-									Total Appointment <br> <%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
-								</p>
+					<a href="patient.jsp" style="text-decoration: none; color: inherit;">
+
+						<div class="darkblue-panel pn clickable-box">
+							<div class="darkblue-header">
+								<h5>VIEW APPOINTMENTS</h5>
+							</div>
+							<div class="card my-card">
+								<div class="card-body text-center text-success">
+									<i class="fa-solid fa-user-doctor fa-10x"></i><br>
+									<p class="fs-4 text-center">
+										Total: <br><%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
-
+					</a>
 				</div>
 
+
 				<div class="col-md-4 col-sm-4 mb">
+					<a href="chatroom.jsp" style="text-decoration: none; color: inherit;">
 
 					<div class="green-panel pn">
 						<div class="green-header">
@@ -210,30 +212,12 @@
 						</div>
 
 					</div>
+					</a>
 				</div>
 
 			</div>
 
 			<div class="row"style="margin-top: 20px">
-
-				<div class="col-md-4 col-sm-2 mb"STYLE="margin-top: 20px;height:200px">
-
-					<div class="green-panel pn">
-						<div class="green-header">
-							<h5>PERSONAL DETAILS</h5>
-						</div>
-						<div class="card my-card">
-							<div class="card-body text-center text-success">
-								<i class="fa-solid fa-person-circle-plus fa-10x"></i><br>
-								<p class="fs-4 text-center">
-									Doctor <br> <%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
-								</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
 
 
 				<div class="col-md-8 mb"STYLE="margin-top: 20px">
@@ -243,7 +227,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3 centered hidden-sm hidden-xs">
-								<img src="../Dashassets/images/pQ9KIPEo2SRU.jpg" class="img-circle" width="65">
+								<i class="fa-solid fa-user  fa-4x"style="color: #44444b"></i>
 							</div>
 							<div class="col-md-9">
 								<p>
@@ -284,10 +268,7 @@
 			<p>
 				© Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
 			</p>
-			<div class="credits">
 
-				Created with Dashio template by <a href="https://templatemag.com/">TemplateMag</a>
-			</div>
 			<a href="index.html#" class="go-top">
 				<i class="fa fa-angle-up"></i>
 			</a>
