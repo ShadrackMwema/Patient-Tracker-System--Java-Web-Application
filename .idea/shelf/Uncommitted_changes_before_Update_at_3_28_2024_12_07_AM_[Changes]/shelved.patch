@@ -1,0 +1,609 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ArtifactsWorkspaceSettings\">\r\n    <artifacts-to-build>\r\n      <artifact name=\"Patient-Monitoring-System:war\" />\r\n      <artifact name=\"Patient-Monitoring-System:war exploded\" />\r\n    </artifacts-to-build>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6f166b96-1ac0-4f40-a72c-49d9d1d8d607\" name=\"Changes\" comment=\"Updating dashboards and navbars\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/Dashassets/images/img.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/Dashassets/images/img_1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/img/docAppointment.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/img/img.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/img/img_1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/img/img_2.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/viewAppointment.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/admin/index.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/admin/index.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/admin/patient.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/admin/patient.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/admin_login.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/admin_login.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/assets/css/main.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/assets/css/main.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/component/navbar.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/component/navbar.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/doctor/index.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/doctor/index.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/doctor_login.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/doctor_login.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/img/doc3.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/user_appointment.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/user_appointment.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/user_login.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/user_login.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/userindex.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/userindex.jsp\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Jsp File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;ShadrackMwema&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"8d6580a7-e01b-42fb-b42f-1875778fbe80\" />\r\n        <option name=\"url\" value=\"https://github.com/ShadrackMwema/Patients-Monitoring-System.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"LogFilters\">\r\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\r\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\r\n    <option name=\"FILTER_INFO\" value=\"true\" />\r\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\r\n    <option name=\"CUSTOM_FILTER\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dP8yTcfDauRXGXpbkK5Uu4LBss\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Tomcat Server.Tomcat 8.5.961.executor&quot;: &quot;Run&quot;,\r\n    &quot;Tomcat Server.navbar.jsp (1).executor&quot;: &quot;Run&quot;,\r\n    &quot;Tomcat Server.navbar.jsp.executor&quot;: &quot;Run&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomePC/Desktop/TESTS/Patient-Monitoring-System--Java-Web-Application/src/main/webapp/Dashassets&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\HomePC\\Desktop\\TESTS\\Patient-Monitoring-System--Java-Web-Application\\src\\main\\webapp\\Dashassets\" />\r\n      <recent name=\"C:\\Users\\HomePC\\Desktop\\PROJECThT\\Patient-Monitoring-System\\src\\main\\webapp\" />\r\n      <recent name=\"C:\\Users\\HomePC\\Desktop\\PROJECThT\\Patient-Monitoring-System\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"openRunningConfigInTab\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Tomcat Server.Tomcat 8.5.961\">\r\n    <configuration name=\"Tomcat 8.5.961\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" APPLICATION_SERVER_NAME=\"Tomcat 8.5.961\" ALTERNATIVE_JRE_ENABLED=\"false\">\r\n      <option name=\"UPDATING_POLICY\" value=\"restart-server\" />\r\n      <deployment>\r\n        <artifact name=\"Patient-Monitoring-System:war exploded\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/Patient_Monitoring_System_war_exploded\" />\r\n          </settings>\r\n        </artifact>\r\n        <artifact name=\"Patient-Monitoring-System:war\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/Patient_Monitoring_System_war\" />\r\n          </settings>\r\n        </artifact>\r\n      </deployment>\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"72bc7023-fc2f-45aa-872a-cb079f8f2372\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <RunnerSettings RunnerId=\"Debug\">\r\n        <option name=\"DEBUG_PORT\" value=\"62841\" />\r\n      </RunnerSettings>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Cover\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Debug\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Profile\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n        <option name=\"BuildArtifacts\" enabled=\"true\">\r\n          <artifact name=\"Patient-Monitoring-System:war exploded\" />\r\n          <artifact name=\"Patient-Monitoring-System:war\" />\r\n        </option>\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"navbar.jsp (1)\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" temporary=\"true\" APPLICATION_SERVER_NAME=\"Tomcat 8.5.961\" ALTERNATIVE_JRE_ENABLED=\"false\">\r\n      <option name=\"OPEN_IN_BROWSER_URL\" value=\"http://localhost:8080/doctor/navbar.jsp\" />\r\n      <deployment>\r\n        <artifact name=\"Patient-Monitoring-System:war\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/Patient_Monitoring_System_war\" />\r\n          </settings>\r\n        </artifact>\r\n      </deployment>\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"9eb5044d-1f37-4f09-b453-a96bd8fd2808\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n        <option name=\"BuildArtifacts\" enabled=\"true\">\r\n          <artifact name=\"Patient-Monitoring-System:war\" />\r\n        </option>\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"navbar.jsp\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" temporary=\"true\" APPLICATION_SERVER_NAME=\"Tomcat 8.5.961\" ALTERNATIVE_JRE_ENABLED=\"false\">\r\n      <option name=\"OPEN_IN_BROWSER_URL\" value=\"http://localhost:8080/doctor/navbar.jsp\" />\r\n      <deployment>\r\n        <artifact name=\"Patient-Monitoring-System:war\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/Patient_Monitoring_System_war\" />\r\n          </settings>\r\n        </artifact>\r\n      </deployment>\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"bc315202-7c7e-4f85-9312-189323f51261\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n        <option name=\"BuildArtifacts\" enabled=\"true\">\r\n          <artifact name=\"Patient-Monitoring-System:war\" />\r\n        </option>\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Tomcat Server.Tomcat 8.5.961\" />\r\n      <item itemvalue=\"Tomcat Server.navbar.jsp\" />\r\n      <item itemvalue=\"Tomcat Server.navbar.jsp (1)\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Tomcat Server.navbar.jsp (1)\" />\r\n        <item itemvalue=\"Tomcat Server.navbar.jsp\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6f166b96-1ac0-4f40-a72c-49d9d1d8d607\" name=\"Changes\" comment=\"\" />\r\n      <created>1709898607015</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1709898607015</updated>\r\n      <workItem from=\"1709898608031\" duration=\"562000\" />\r\n      <workItem from=\"1709899192345\" duration=\"385000\" />\r\n      <workItem from=\"1709900359551\" duration=\"3863000\" />\r\n      <workItem from=\"1710085094412\" duration=\"15000\" />\r\n      <workItem from=\"1710085155648\" duration=\"139000\" />\r\n      <workItem from=\"1710085363362\" duration=\"25246000\" />\r\n      <workItem from=\"1710148239060\" duration=\"5632000\" />\r\n      <workItem from=\"1710337260372\" duration=\"5846000\" />\r\n      <workItem from=\"1710487268107\" duration=\"669000\" />\r\n      <workItem from=\"1710492876421\" duration=\"506000\" />\r\n      <workItem from=\"1710493394954\" duration=\"27000\" />\r\n      <workItem from=\"1710493460399\" duration=\"5945000\" />\r\n      <workItem from=\"1710501156395\" duration=\"74000\" />\r\n      <workItem from=\"1710501237244\" duration=\"464000\" />\r\n      <workItem from=\"1710501731479\" duration=\"442000\" />\r\n      <workItem from=\"1710683570333\" duration=\"2773000\" />\r\n      <workItem from=\"1710699421976\" duration=\"3124000\" />\r\n      <workItem from=\"1710769301991\" duration=\"33415000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Updating dashboards and navbars\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710143907854</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710143907854</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Updating dashboards and navbars\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710146146767</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710146146767</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/Main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Updating dashboards and navbars\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Updating dashboards and navbars\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp</url>\r\n          <line>102</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/webapp/userindex.jsp</url>\r\n          <line>244</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp</url>\r\n          <line>335</line>\r\n          <option name=\"timeStamp\" value=\"12\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent\">\r\n    <option name=\"sizePresets\">\r\n      <list>\r\n        <SizePreset>\r\n          <option name=\"caption\" value=\"Phone\" />\r\n          <option name=\"height\" value=\"568\" />\r\n          <option name=\"width\" value=\"320\" />\r\n        </SizePreset>\r\n        <SizePreset>\r\n          <option name=\"caption\" value=\"Tablet\" />\r\n          <option name=\"height\" value=\"1024\" />\r\n          <option name=\"width\" value=\"768\" />\r\n        </SizePreset>\r\n        <SizePreset>\r\n          <option name=\"caption\" value=\"Desktop\" />\r\n          <option name=\"height\" value=\"900\" />\r\n          <option name=\"width\" value=\"1440\" />\r\n        </SizePreset>\r\n      </list>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/.idea/workspace.xml	(date 1711573069915)
+@@ -10,44 +10,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars">
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/img.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/img_1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/docAppointment.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_2.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/viewAppointment.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor_login.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/doc3.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" afterDir="false" />
+-    </list>
++    <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -88,6 +51,9 @@
+     <option name="FILTER_INFO" value="true" />
+     <option name="FILTER_DEBUG" value="true" />
+     <option name="CUSTOM_FILTER" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+@@ -107,32 +73,33 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Tomcat Server.Tomcat 8.5.961.executor&quot;: &quot;Run&quot;,
+-    &quot;Tomcat Server.navbar.jsp (1).executor&quot;: &quot;Run&quot;,
+-    &quot;Tomcat Server.navbar.jsp.executor&quot;: &quot;Run&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomePC/Desktop/TESTS/Patient-Monitoring-System--Java-Web-Application/src/main/webapp/Dashassets&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Tomcat Server.Tomcat 8.5.961.executor": "Run",
++    "Tomcat Server.navbar.jsp (1).executor": "Run",
++    "Tomcat Server.navbar.jsp.executor": "Run",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/HomePC/Desktop/Patient-Tracker-System--Java-Web-Application-Main/src/main/webapp/img",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\HomePC\Desktop\Patient-Tracker-System--Java-Web-Application-Main\src\main\webapp\img" />
+       <recent name="C:\Users\HomePC\Desktop\TESTS\Patient-Monitoring-System--Java-Web-Application\src\main\webapp\Dashassets" />
+       <recent name="C:\Users\HomePC\Desktop\PROJECThT\Patient-Monitoring-System\src\main\webapp" />
+       <recent name="C:\Users\HomePC\Desktop\PROJECThT\Patient-Monitoring-System\src" />
+@@ -358,6 +325,9 @@
+       <workItem from="1710683570333" duration="2773000" />
+       <workItem from="1710699421976" duration="3124000" />
+       <workItem from="1710769301991" duration="33415000" />
++      <workItem from="1711353391909" duration="625000" />
++      <workItem from="1711354039789" duration="239000" />
++      <workItem from="1711354312249" duration="11454000" />
+     </task>
+     <task id="LOCAL-00001" summary="Updating dashboards and navbars">
+       <option name="closed" value="true" />
+@@ -424,8 +394,18 @@
+         </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
+           <url>file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp</url>
+-          <line>335</line>
+-          <option name="timeStamp" value="12" />
++          <line>182</line>
++          <option name="timeStamp" value="13" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp</url>
++          <line>91</line>
++          <option name="timeStamp" value="14" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp</url>
++          <line>151</line>
++          <option name="timeStamp" value="15" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+Index: src/main/webapp/admin/edit_doctor.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@page import=\"com.healthTrace.entity.Doctor\"%>\r\n<%@page import=\"com.healthTrace.dao.DoctorDAO\"%>\r\n<%@page import=\"com.healthTrace.entity.Specialist\"%>\r\n<%@page import=\"java.util.List\"%>\r\n<%@page import=\"com.healthTrace.db.DBConnection\"%>\r\n<%@page import=\"com.healthTrace.dao.SpecialistDAO\"%>\r\n<%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\r\n\tpageEncoding=\"UTF-8\"%>\r\n\r\n<!-- for jstl tag -->\r\n<%@ taglib prefix=\"c\" uri=\"http://java.sun.com/jsp/jstl/core\"%>\r\n<!-- end of jstl tag -->\r\n\r\n<%@page isELIgnored=\"false\"%>\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<title>Doctor page</title>\r\n<%@include file=\"../component/allcss.jsp\"%>\r\n\r\n<!-- customs css for this page -->\r\n<style type=\"text/css\">\r\n.my-card {\r\n\tbox-shadow: 0px 0px 10px 1px maroon;\r\n\t/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/\r\n}\r\n</style>\r\n<!-- end of customs css for this page -->\r\n\r\n</head>\r\n<body>\r\n\t<%@include file=\"navbar.jsp\"%>\r\n\r\n\r\n\t<div class=\"container-fluid p-3\">\r\n\t\t<div class=\"row\">\r\n\t\t\t<div class=\"col-md-4 offset-4\">\r\n\t\t\t\t<div class=\"card my-card\">\r\n\t\t\t\t\t<div class=\"card-body\">\r\n\t\t\t\t\t\t<p class=\"fs-3 text-center text-danger\">Edit Doctor Details</p>\r\n\r\n\t\t\t\t\t\t<!-- message print -->\r\n\t\t\t\t\t\t<!-- for success msg -->\r\n\t\t\t\t\t\t<c:if test=\"${not empty successMsg }\">\r\n\t\t\t\t\t\t\t<p class=\"text-center text-success fs-3\">${successMsg}</p>\r\n\t\t\t\t\t\t\t<c:remove var=\"successMsg\" scope=\"session\" />\r\n\t\t\t\t\t\t</c:if>\r\n\r\n\t\t\t\t\t\t<!-- for error msg -->\r\n\t\t\t\t\t\t<c:if test=\"${not empty errorMsg }\">\r\n\t\t\t\t\t\t\t<p class=\"text-center text-danger fs-3\">${errorMsg}</p>\r\n\t\t\t\t\t\t\t<c:remove var=\"errorMsg\" scope=\"session\" />\r\n\t\t\t\t\t\t</c:if>\r\n\t\t\t\t\t\t<!-- End of message print -->\r\n\r\n\r\n\r\n\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t//get specific doctor id with the help of request.getParameter() \r\n\t\t\t\t\t\t//which is coming from url for doctor editing(which i pass through url when press edit doctor)...\r\n\t\t\t\t\t\tint id = Integer.parseInt(request.getParameter(\"id\")); //this \"id\" is prefix name in URL\r\n\t\t\t\t\t\tDoctorDAO docDAO = new DoctorDAO(DBConnection.getConn());\r\n\t\t\t\t\t\tDoctor doctor = docDAO.getDoctorById(id);//call getDoctorById(id) which return doctor of specific id\r\n\t\t\t\t\t\t%>\r\n\r\n\t\t\t\t\t\t<!-- boostrap form -->\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<!-- doctors details form with specific id's doctors submitted data/details with editable field -->\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<form action=\"../updateDoctor\" method=\"post\">\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Full Name</label> <input\r\n\t\t\t\t\t\t\t\t\tname=\"fullName\" type=\"text\" placeholder=\"Enter full name\"\r\n\t\t\t\t\t\t\t\t\tclass=\"form-control\" value=\"<%=doctor.getFullName()%>\">\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Date of Birth</label> <input\r\n\t\t\t\t\t\t\t\t\tname=\"dateOfBirth\" type=\"date\" placeholder=\"Enter DOB\"\r\n\t\t\t\t\t\t\t\t\tclass=\"form-control\" value=\"<%=doctor.getDateOfBirth()%>\">\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Qualification</label> <input\r\n\t\t\t\t\t\t\t\t\tname=\"qualification\" type=\"text\"\r\n\t\t\t\t\t\t\t\t\tplaceholder=\"Enter qualification\" class=\"form-control\"\r\n\t\t\t\t\t\t\t\t\tvalue=\"<%=doctor.getQualification()%>\">\r\n\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Specialist</label> <select\r\n\t\t\t\t\t\t\t\t\tclass=\"form-control\" name=\"specialist\">\r\n\t\t\t\t\t\t\t\t\t<option><%=doctor.getSpecialist()%></option>\r\n\r\n\t\t\t\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t\t\t\tSpecialistDAO spDAO = new SpecialistDAO(DBConnection.getConn());\r\n\t\t\t\t\t\t\t\t\tList<Specialist> spList = spDAO.getAllSpecialist();\r\n\t\t\t\t\t\t\t\t\tfor (Specialist sp : spList) {\r\n\t\t\t\t\t\t\t\t\t%>\r\n\t\t\t\t\t\t\t\t\t<option>\r\n\t\t\t\t\t\t\t\t\t\t<%=sp.getSpecialistName()%>\r\n\t\t\t\t\t\t\t\t\t</option>\r\n\t\t\t\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\t%>\r\n\r\n\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Email address</label> <input\r\n\t\t\t\t\t\t\t\t\tname=\"email\" type=\"email\" placeholder=\"Enter Email\"\r\n\t\t\t\t\t\t\t\t\tclass=\"form-control\" value=\"<%=doctor.getEmail()%>\">\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Phone</label> <input name=\"phone\"\r\n\t\t\t\t\t\t\t\t\ttype=\"text\" placeholder=\"Enter mobile number\"\r\n\t\t\t\t\t\t\t\t\tclass=\"form-control\" value=\"<%=doctor.getPhone()%>\">\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<label class=\"form-label\">Password</label> <input\r\n\t\t\t\t\t\t\t\t\tname=\"password\" type=\"text\" placeholder=\"Enter password\"\r\n\t\t\t\t\t\t\t\t\tclass=\"form-control\" value=\"<%=doctor.getPassword()%>\">\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!-- for update data of specific user's id used \"hidden\" id -->\r\n\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t<input name=\"id\" type=\"hidden\" class=\"form-control\"\r\n\t\t\t\t\t\t\t\t\tvalue=\"<%=doctor.getId()%>\">\r\n\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-danger text-white col-md-12\">Update</button>\r\n\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t<!-- <br>Don't have an account? <a href=\"#!\"\r\n\t\t\t\t\t\t\tclass=\"text-decoration-none\">create one</a> -->\r\n\t\t\t\t\t\t<!-- end of boostrap form -->\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t</div>\r\n\t</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/admin/edit_doctor.jsp b/src/main/webapp/admin/edit_doctor.jsp
+--- a/src/main/webapp/admin/edit_doctor.jsp	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/src/main/webapp/admin/edit_doctor.jsp	(date 1711573056160)
+@@ -13,31 +13,149 @@
+ 
+ <%@page isELIgnored="false"%>
+ 
+-<!DOCTYPE html>
+ <html>
+ <head>
+-<meta charset="UTF-8">
+-<title>Doctor page</title>
+-<%@include file="../component/allcss.jsp"%>
++	<meta charset="UTF-8">
++	<title>Admin page</title>
++	<%@include file="../component/allcss.jsp"%>
+ 
+-<!-- customs css for this page -->
+-<style type="text/css">
+-.my-card {
+-	box-shadow: 0px 0px 10px 1px maroon;
+-	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
+-}
+-</style>
+-<!-- end of customs css for this page -->
++	<link href="../Dashassets/images/7zvDN2okWbny.png" rel="icon">
++	<link href="../Dashassets/images/V9OAuGdBb0Qh.png" rel="apple-touch-icon">
++
++	<link href="../Dashassets/css/503uKmQN8xls.css" rel="stylesheet">
++
++	<link href="../Dashassets/css/per8hcNp7jdl.css" rel="stylesheet">
++	<link rel="stylesheet" type="text/css" href="../Dashassets/css/bnsLJI6BAg3h.css">
++	<link rel="stylesheet" type="text/css" href="../Dashassets/css/jz3x9DhP6jJ7.css">
++
++	<link href="../Dashassets/css/9NAoFREDLVA6.css" rel="stylesheet">
++	<link href="../Dashassets/css/l4gqiphJ7KXZ.css" rel="stylesheet">
++
++
++	<!-- Boostrap CSS -->
++	<link
++			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
++			rel="stylesheet"
++			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
++			crossorigin="anonymous">
++	<!-- End Boostrap CSS -->
++
++	<!-- Font awesome css -->
++	<link rel="stylesheet"
++		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
++		  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
++		  crossorigin="anonymous" referrerpolicy="no-referrer" />
++	<!-- End Font awesome css -->
++
++	<!--font awesome css-->
++	<link rel="stylesheet"
++		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
++
++	<!-- Boostrap JS -->
++	<%--<script--%>
++	<%--		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"--%>
++	<%--		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"--%>
++	<%--		crossorigin="anonymous"></script>--%>
++
++
++	<script async="" src="Dashassets/js/0vgv07pFj0mD.js"></script><script src="Dashassets/js/Mx6K2iHOd1T0.js"></script>
++
++
++	<!-- customs css for this page -->
++	<style type="text/css">
++		.my-card {
++			box-shadow: 0px 0px 10px 1px #b4fafa;
++			/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
++		}
++		.my-card {
++			height: 150px; /* Adjust the height of the boxes */
++			margin-bottom: 20px; /* Increase the margin between boxes */
++			padding: 20px; /* Add padding to the boxes */
++		}
++
++	</style>
++	<!-- end of customs css for this page -->
+ 
++
++
+ </head>
+ <body>
+-	<%@include file="navbar.jsp"%>
++<%@include file="navbar.jsp"%>
+ 
++<!-- adminObj session maintain if "adminObj" empty than go and login first...-->
++<!-- no one can access admin dashboard without login as admin-->
++<c:if test="${empty adminObj }">
++	<c:redirect url="../admin_login.jsp"></c:redirect>
++</c:if>
++
++
++
++<!-- message print -->
++<!-- for success msg -->
++<c:if test="${not empty successMsg }">
++	<p class="text-center text-success fs-5">${successMsg}</p>
++	<c:remove var="successMsg" scope="session" />
++</c:if>
++
++<!-- for error msg -->
++<c:if test="${not empty errorMsg }">
++	<p class="text-center text-danger fs-5">${errorMsg}</p>
++	<c:remove var="errorMsg" scope="session" />
++</c:if>
++<!-- End of message print -->
++
++<!-- create connection with db and others -->
++
++<aside>
++	<div id="sidebar" class="nav-collapse "style="border-radius: 10px;height: 600px;width: 210px;">
++
++		<ul class="sidebar-menu" id="nav-accordion">
++			<p class="centered"><a href="profile.html"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
++			<h5 class="centered">Admin</h5>
++			<li class="mt">
++				<a class="active" href="index.jsp">
++					<i class="fa fa-dashboard"></i>
++					<span>Dashboard</span>
++				</a>
++			</li>
++			</li>
++			<li class="sub-menu">
++				<a href="view_doctor.jsp">
++					<i class="fa fa-users"></i>
++					<span>Doctors</span>
++				</a></li>
++			<li class="sub-menu">
++				<a href="patient.jsp">
++					<i class="fa fa-book"></i>
++					<span>Appointments</span>
++				</a>
++
++			</li>
++
++
++
++			<li class="sub-menu">
++				<a href="specialist.jsp">
++					<i class="fa fa-star-half-empty"></i>
++					<span>Specialists</span>
++				</a>
++
++			</li>
++		</ul>
++
++	</div>
++</aside>
++
++<section id="main-content">
++	<p class="text-center text-success fs-3">Admin Dashboard</p>
++
++	<!-- col-2 --><div style="position: relative;margin: 30px;background-color: #afc8fa;padding: 10px">
+ 
+ 	<div class="container-fluid p-3">
+ 		<div class="row">
+-			<div class="col-md-4 offset-4">
+-				<div class="card my-card">
++
++			<div class="col-md-12">
++
+ 					<div class="card-body">
+ 						<p class="fs-3 text-center text-danger">Edit Doctor Details</p>
+ 
+@@ -58,17 +176,17 @@
+ 
+ 
+ 						<%
+-						//get specific doctor id with the help of request.getParameter() 
+-						//which is coming from url for doctor editing(which i pass through url when press edit doctor)...
+-						int id = Integer.parseInt(request.getParameter("id")); //this "id" is prefix name in URL
+-						DoctorDAO docDAO = new DoctorDAO(DBConnection.getConn());
+-						Doctor doctor = docDAO.getDoctorById(id);//call getDoctorById(id) which return doctor of specific id
++							//get specific doctor id with the help of request.getParameter()
++							//which is coming from url for doctor editing(which i pass through url when press edit doctor)...
++							int id = Integer.parseInt(request.getParameter("id")); //this "id" is prefix name in URL
++							DoctorDAO docDAO = new DoctorDAO(DBConnection.getConn());
++							Doctor doctor = docDAO.getDoctorById(id);//call getDoctorById(id) which return doctor of specific id
+ 						%>
+ 
+ 						<!-- boostrap form -->
+-						
++
+ 						<!-- doctors details form with specific id's doctors submitted data/details with editable field -->
+-						
++
+ 						<form action="../updateDoctor" method="post">
+ 							<div class="mb-3">
+ 								<label class="form-label">Full Name</label> <input
+@@ -92,21 +210,21 @@
+ 							<div class="mb-3">
+ 								<label class="form-label">Specialist</label> <select
+ 									class="form-control" name="specialist">
+-									<option><%=doctor.getSpecialist()%></option>
++								<option><%=doctor.getSpecialist()%></option>
+ 
+-									<%
++								<%
+ 									SpecialistDAO spDAO = new SpecialistDAO(DBConnection.getConn());
+ 									List<Specialist> spList = spDAO.getAllSpecialist();
+ 									for (Specialist sp : spList) {
+-									%>
+-									<option>
+-										<%=sp.getSpecialistName()%>
+-									</option>
+-									<%
++								%>
++								<option>
++									<%=sp.getSpecialistName()%>
++								</option>
++								<%
+ 									}
+-									%>
++								%>
+ 
+-								</select>
++							</select>
+ 							</div>
+ 
+ 							<div class="mb-3">
+@@ -117,8 +235,8 @@
+ 							</div>
+ 							<div class="mb-3">
+ 								<label class="form-label">Phone</label> <input name="phone"
+-									type="text" placeholder="Enter mobile number"
+-									class="form-control" value="<%=doctor.getPhone()%>">
++																			   type="text" placeholder="Enter mobile number"
++																			   class="form-control" value="<%=doctor.getPhone()%>">
+ 
+ 							</div>
+ 							<div class="mb-3">
+@@ -126,11 +244,11 @@
+ 									name="password" type="text" placeholder="Enter password"
+ 									class="form-control" value="<%=doctor.getPassword()%>">
+ 							</div>
+-							
++
+ 							<!-- for update data of specific user's id used "hidden" id -->
+ 							<div class="mb-3">
+ 								<input name="id" type="hidden" class="form-control"
+-									value="<%=doctor.getId()%>">
++									   value="<%=doctor.getId()%>">
+ 							</div>
+ 
+ 							<button type="submit" class="btn btn-danger text-white col-md-12">Update</button>
+@@ -140,19 +258,89 @@
+ 						<!-- end of boostrap form -->
+ 
+ 					</div>
+-
+ 				</div>
+ 			</div>
+-
+ 		</div>
+ 	</div>
++	<div>
+ 
+ 
++		<script src="../Dashassets/js/Py4ZAUNCz9md.js"></script>
++		<script src="../Dashassets/js/ze8gppJZjEMa.js"></script>
++		<script class="include" type="Dashassets/text/javascript" src="../Dashassets/js/NMTwUwpkUl6s.js"></script>
++		<script src="../Dashassets/js/L6AtHWFwgaJi.js"></script>
++		<script src="../Dashassets/js/FaMU0TPCXw3s.js" type="Dashassets/text/javascript"></script>
++		<script src="../Dashassets/js/EdmIX6LYV57Z.js"></script>
+ 
++		<script src="../Dashassets/js/GYGjIdlUsTny.js"></script>
++		<script type="../Dashassets/text/javascript" src="../Dashassets/js/3hqrMYtj3L7k.js"></script>
++		<script type="../Dashassets/text/javascript" src="../Dashassets/js/RcrlNDQpkV64.js"></script>
+ 
++		<script src="../Dashassets/js/cg3TL0eNXCcl.js"></script>
++		<script src="../Dashassets/js/Mj5aD5qfUaBz.js"></script>
++		<script type="text/javascript">
++			$(document).ready(function() {
++				var unique_id = $.gritter.add({
++					// (string | mandatory) the heading of the notification
++					title: 'Welcome to Dashio!',
++					// (string | mandatory) the text inside the notification
++					text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',
++					// (string | optional) the image to display on the left
++					image: 'img/ui-sam.jpg',
++					// (bool | optional) if you want it to fade out on its own or just sit there
++					sticky: false,
++					// (int | optional) the time you want it to be alive for before fading out
++					time: 8000,
++					// (string | optional) the class name you want to apply to that specific message
++					class_name: 'my-sticky-class'
++				});
+ 
++				return false;
++			});
++		</script>
++		<script type="application/javascript">
++			$(document).ready(function() {
++				$("#date-popover").popover({
++					html: true,
++					trigger: "manual"
++				});
++				$("#date-popover").hide();
++				$("#date-popover").click(function(e) {
++					$(this).hide();
++				});
+ 
++				$("#my-calendar").zabuto_calendar({
++					action: function() {
++						return myDateFunction(this.id, false);
++					},
++					action_nav: function() {
++						return myNavFunction(this.id);
++					},
++					ajax: {
++						url: "show_data.php?action=1",
++						modal: true
++					},
++					legend: [{
++						type: "text",
++						label: "Special event",
++						badge: "00"
++					},
++						{
++							type: "block",
++							label: "Regular event",
++						}
++					]
++				});
++			});
+ 
++			function myNavFunction(id) {
++				$("#date-popover").hide();
++				var nav = $("#" + id).data("navigation");
++				var to = $("#" + id).data("to");
++				console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
++			}
++		</script>
++		<script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-6', 'auto'); ga('send', 'pageview'); } </script>
+ 
+ 
+ </body>
+Index: src/main/webapp/admin/navbar.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!-- for jstl tag -->\r\n<%@ taglib prefix=\"c\" uri=\"http://java.sun.com/jsp/jstl/core\"%>\r\n<!-- end of jstl tag -->\r\n\r\n<%@page isELIgnored=\"false\"%>\r\n\r\n<nav class=\"navbar navbar-expand-lg navbar-dark sticky-top\"style=\"background-color: #348aa1;padding-top: 50px;padding-bottom: 30px;padding-left: 60px;padding-right: 60px\">\r\n\t<div class=\"container-fluid\">\r\n\t\t<div class=\"sidebar-toggle-box\">\r\n\t\t\t<div class=\"fa fa-bars tooltips\" data-placement=\"right\" data-original-title=\"Toggle Navigation\"></div>\r\n\t\t</div>\r\n\r\n\t\t<a href=\"index.jsp\" class=\"logo\"><b>health<span>Trace</span></b></a>\r\n\t\t<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\"\r\n\t\t\t\tdata-bs-target=\"#navbarSupportedContent\"\r\n\t\t\t\taria-controls=\"navbarSupportedContent\" aria-expanded=\"false\"\r\n\t\t\t\taria-label=\"Toggle navigation\">\r\n\t\t\t<span class=\"navbar-toggler-icon\"></span>\r\n\t\t</button>\r\n\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n\t\t\t<!-- original ul <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\"> -->\r\n\t\t\t<ul class=\"navbar-nav ms-auto mb-2 mb-lg-0\">\r\n\r\n\t\t\t\t<!-- if user not logged in then user can see below items -->\r\n\t\t\t\t<!-- to create dynamic navbar -->\r\n\r\n\r\n\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link active\" aria-current=\"page\" href=\"user_login.jsp\"><i class=\"fas fa-sign-in-alt\"></i> USER</a></li>\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link active\"\r\n\t\t\t\t\t\t\t\t\t\taria-current=\"page\" href=\"doctor_login.jsp\">\r\n\t\t\t\t\t<i class=\"fas fa-sign-in-alt\"></i> DOCTOR</a></li>\r\n\r\n\r\n\t\t\t\t<!-- end if user not logged in then user can see below items -->\r\n\t\t\t\t<li class=\"nav-item\">\r\n\r\n\t\t\t\t\t<!-- if user is logged in then user can see below items -->\r\n\r\n\t\t\t\t\t<div class=\"dropdown\">\r\n\t\t\t\t<button class=\"btn btn-light  dropdown-toggle\" type=\"button\"\r\n\t\t\t\t\tid=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\"\r\n\t\t\t\t\taria-expanded=\"false\">\r\n\t\t\t\t\t<i class=\"fa fa-universal-access\"></i> Admin\r\n\t\t\t\t</button>\r\n\t\t\t\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton1\">\r\n\t\t\t\t\t<li><a class=\"dropdown-item\" href=\"../adminLogout\">Logout</a></li>\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\r\n\r\n\t\t</div>\r\n\t</div>\r\n</nav>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/admin/navbar.jsp b/src/main/webapp/admin/navbar.jsp
+--- a/src/main/webapp/admin/navbar.jsp	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/src/main/webapp/admin/navbar.jsp	(date 1711573063231)
+@@ -26,11 +26,6 @@
+ 
+ 
+ 
+-				<li class="nav-item"><a class="nav-link active" aria-current="page" href="user_login.jsp"><i class="fas fa-sign-in-alt"></i> USER</a></li>
+-				<li class="nav-item"><a class="nav-link active"
+-										aria-current="page" href="doctor_login.jsp">
+-					<i class="fas fa-sign-in-alt"></i> DOCTOR</a></li>
+-
+ 
+ 				<!-- end if user not logged in then user can see below items -->
+ 				<li class="nav-item">
+Index: src/main/webapp/admin/view_doctor.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@page import=\"com.healthTrace.entity.Doctor\"%>\r\n<%@page import=\"com.healthTrace.dao.DoctorDAO\"%>\r\n<%@page import=\"com.healthTrace.entity.Specialist\"%>\r\n<%@page import=\"java.util.List\"%>\r\n<%@page import=\"com.healthTrace.db.DBConnection\"%>\r\n<%@page import=\"com.healthTrace.dao.SpecialistDAO\"%>\r\n<%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\r\n\t\t pageEncoding=\"UTF-8\"%>\r\n\r\n<!-- for jstl tag -->\r\n<%@ taglib prefix=\"c\" uri=\"http://java.sun.com/jsp/jstl/core\"%>\r\n<!-- end of jstl tag -->\r\n\r\n<%@page isELIgnored=\"false\"%>\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>Admin page</title>\r\n\t<%@include file=\"../component/allcss.jsp\"%>\r\n\r\n\t<link href=\"../Dashassets/images/7zvDN2okWbny.png\" rel=\"icon\">\r\n\t<link href=\"../Dashassets/images/V9OAuGdBb0Qh.png\" rel=\"apple-touch-icon\">\r\n\r\n\t<link href=\"../Dashassets/css/503uKmQN8xls.css\" rel=\"stylesheet\">\r\n\r\n\t<link href=\"../Dashassets/css/per8hcNp7jdl.css\" rel=\"stylesheet\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../Dashassets/css/bnsLJI6BAg3h.css\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../Dashassets/css/jz3x9DhP6jJ7.css\">\r\n\r\n\t<link href=\"../Dashassets/css/9NAoFREDLVA6.css\" rel=\"stylesheet\">\r\n\t<link href=\"../Dashassets/css/l4gqiphJ7KXZ.css\" rel=\"stylesheet\">\r\n\r\n\r\n\t<!-- Boostrap CSS -->\r\n\t<link\r\n\t\t\thref=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\"\r\n\t\t\trel=\"stylesheet\"\r\n\t\t\tintegrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\"\r\n\t\t\tcrossorigin=\"anonymous\">\r\n\t<!-- End Boostrap CSS -->\r\n\r\n\t<!-- Font awesome css -->\r\n\t<link rel=\"stylesheet\"\r\n\t\t  href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\"\r\n\t\t  integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\"\r\n\t\t  crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n\t<!-- End Font awesome css -->\r\n\r\n\t<!--font awesome css-->\r\n\t<link rel=\"stylesheet\"\r\n\t\t  href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n\r\n\t<!-- Boostrap JS -->\r\n\t<%--<script--%>\r\n\t<%--\t\tsrc=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"--%>\r\n\t<%--\t\tintegrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\"--%>\r\n\t<%--\t\tcrossorigin=\"anonymous\"></script>--%>\r\n\r\n\r\n\t<script async=\"\" src=\"Dashassets/js/0vgv07pFj0mD.js\"></script><script src=\"Dashassets/js/Mx6K2iHOd1T0.js\"></script>\r\n\r\n\r\n\t<!-- customs css for this page -->\r\n\t<style type=\"text/css\">\r\n\t\t.my-card {\r\n\t\t\tbox-shadow: 0px 0px 10px 1px #b4fafa;\r\n\t\t\t/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/\r\n\t\t}\r\n\t\t.my-card {\r\n\t\t\theight: 150px; /* Adjust the height of the boxes */\r\n\t\t\tmargin-bottom: 20px; /* Increase the margin between boxes */\r\n\t\t\tpadding: 20px; /* Add padding to the boxes */\r\n\t\t}\r\n\r\n\t</style>\r\n\t<!-- end of customs css for this page -->\r\n\r\n\r\n\r\n</head>\r\n<body>\r\n<%@include file=\"navbar.jsp\"%>\r\n\r\n<!-- adminObj session maintain if \"adminObj\" empty than go and login first...-->\r\n<!-- no one can access admin dashboard without login as admin-->\r\n<c:if test=\"${empty adminObj }\">\r\n\t<c:redirect url=\"../admin_login.jsp\"></c:redirect>\r\n</c:if>\r\n\r\n\r\n\r\n<!-- message print -->\r\n<!-- for success msg -->\r\n<c:if test=\"${not empty successMsg }\">\r\n\t<p class=\"text-center text-success fs-5\">${successMsg}</p>\r\n\t<c:remove var=\"successMsg\" scope=\"session\" />\r\n</c:if>\r\n\r\n<!-- for error msg -->\r\n<c:if test=\"${not empty errorMsg }\">\r\n\t<p class=\"text-center text-danger fs-5\">${errorMsg}</p>\r\n\t<c:remove var=\"errorMsg\" scope=\"session\" />\r\n</c:if>\r\n<!-- End of message print -->\r\n\r\n<!-- create connection with db and others -->\r\n<%\r\n\tDoctorDAO docDAO = new DoctorDAO(DBConnection.getConn());\r\n\tint totalNumberOfDoctor = docDAO.countTotalDoctor();\r\n\tint totalNumberOfUser = docDAO.countTotalUser();\r\n\tint totalNumberOfAppointment = docDAO.countTotalAppointment();\r\n\tint totalNumberOfSpecialist = docDAO.countTotalSpecialist();\r\n%>\r\n<aside>\r\n\t<div id=\"sidebar\" class=\"nav-collapse \"style=\"border-radius: 10px;height: 600px;width: 210px;\">\r\n\r\n\t\t<ul class=\"sidebar-menu\" id=\"nav-accordion\">\r\n\t\t\t<p class=\"centered\"><a href=\"profile.html\"><i class=\"fa-solid fa-user  fa-10x\"style=\"color: ghostwhite\"></i> </a></p>\r\n\t\t\t<h5 class=\"centered\">Admin</h5>\r\n\t\t\t<li class=\"mt\">\r\n\t\t\t\t<a class=\"active\" href=\"index.jsp\">\r\n\t\t\t\t\t<i class=\"fa fa-dashboard\"></i>\r\n\t\t\t\t\t<span>Dashboard</span>\r\n\t\t\t\t</a>\r\n\t\t\t</li>\r\n\t\t\t</li>\r\n\t\t\t<li class=\"sub-menu\">\r\n\t\t\t\t<a href=\"view_doctor.jsp\">\r\n\t\t\t\t\t<i class=\"fa fa-users\"></i>\r\n\t\t\t\t\t<span>Doctors</span>\r\n\t\t\t\t</a></li>\r\n\t\t\t<li class=\"sub-menu\">\r\n\t\t\t\t<a href=\"patient.jsp\">\r\n\t\t\t\t\t<i class=\"fa fa-book\"></i>\r\n\t\t\t\t\t<span>Appointments</span>\r\n\t\t\t\t</a>\r\n\r\n\t\t\t</li>\r\n\r\n\r\n\r\n\t\t\t<li class=\"sub-menu\">\r\n\t\t\t\t<a href=\"specialist.jsp\">\r\n\t\t\t\t\t<i class=\"fa fa-star-half-empty\"></i>\r\n\t\t\t\t\t<span>Specialists</span>\r\n\t\t\t\t</a>\r\n\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\r\n\t</div>\r\n</aside>\r\n\r\n<section id=\"main-content\">\r\n\t<p class=\"text-center text-success fs-3\">Admin Dashboard</p>\r\n\r\n\t<!-- col-2 --><div style=\"position: relative;margin: 30px;background-color: #afc8fa;padding: 10px\">\r\n\r\n\t<div class=\"container-fluid p-3\">\r\n\t\t<div class=\"row\">\r\n\r\n\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t<div class=\"card my-card\">\r\n\t\t\t\t\t<div class=\"card-body\">\r\n\t\t\t\t\t\t<p class=\"fs-3 text-center text-danger\">List of Doctors</p>\r\n\r\n\t\t\t\t\t\t<!-- message print -->\r\n\t\t\t\t\t\t<!-- for success msg -->\r\n\t\t\t\t\t\t<c:if test=\"${not empty successMsg }\">\r\n\t\t\t\t\t\t\t<p class=\"text-center text-success fs-3\">${successMsg}</p>\r\n\t\t\t\t\t\t\t<c:remove var=\"successMsg\" scope=\"session\" />\r\n\t\t\t\t\t\t</c:if>\r\n\r\n\t\t\t\t\t\t<!-- for error msg -->\r\n\t\t\t\t\t\t<c:if test=\"${not empty errorMsg }\">\r\n\t\t\t\t\t\t\t<p class=\"text-center text-danger fs-3\">${errorMsg}</p>\r\n\t\t\t\t\t\t\t<c:remove var=\"errorMsg\" scope=\"session\" />\r\n\t\t\t\t\t\t</c:if>\r\n\t\t\t\t\t\t<!-- End of message print -->\r\n\r\n\t\t\t\t\t\t<!-- table for doctor list -->\r\n\r\n\t\t\t\t\t\t<table class=\"table table-striped\">\r\n\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t<tr class=\"table-info\">\r\n\t\t\t\t\t\t\t\t<!-- <th scope=\"col\">ID</th> -->\r\n\t\t\t\t\t\t\t\t<th scope=\"col\">Full Name</th>\r\n\t\t\t\t\t\t\t\t<th scope=\"col\">DOB</th>\r\n\t\t\t\t\t\t\t\t<th scope=\"col\">Qualification</th>\r\n\t\t\t\t\t\t\t\t<th scope=\"col\">Specialist</th>\r\n\t\t\t\t\t\t\t\t<th scope=\"col\">Email</th>\r\n\t\t\t\t\t\t\t\t<th scope=\"col\">Phone</th>\r\n\t\t\t\t\t\t\t\t<th colspan=\"2\" class=\"text-center\" scope=\"col\">Action</th>\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t<tbody>\r\n\r\n\t\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t\t\tDoctorDAO docDAO2 = new DoctorDAO(DBConnection.getConn());\r\n\t\t\t\t\t\t\t\tList<Doctor> listOfDoc = docDAO2.getAllDoctor();\r\n\t\t\t\t\t\t\t\tfor (Doctor doctorLst : listOfDoc) {\r\n\t\t\t\t\t\t\t%>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t<%-- <th scope=\"row\"><%= doctorLst.getId()%></th> --%>\r\n\t\t\t\t\t\t\t\t<th><%=doctorLst.getFullName()%></th>\r\n\t\t\t\t\t\t\t\t<td><%=doctorLst.getDateOfBirth()%></td>\r\n\t\t\t\t\t\t\t\t<td><%=doctorLst.getQualification()%></td>\r\n\t\t\t\t\t\t\t\t<td><%=doctorLst.getSpecialist()%></td>\r\n\t\t\t\t\t\t\t\t<td><%=doctorLst.getEmail()%></td>\r\n\t\t\t\t\t\t\t\t<td><%=doctorLst.getPhone()%></td>\r\n\r\n\r\n\t\t\t\t\t\t\t\t<td><a class=\"btn btn-sm btn-primary\"\r\n\t\t\t\t\t\t\t\t\t   href=\"edit_doctor.jsp?id=<%=doctorLst.getId()%>\">Edit</a></td>\r\n\t\t\t\t\t\t\t\t<td><a class=\"btn btn-sm btn-danger\" href=\"../deleteDoctor?id=<%= doctorLst.getId() %>\">Delete</a></td>\r\n\r\n\r\n\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t%>\r\n\r\n\r\n\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t</table>\r\n\r\n\t\t\t\t\t\t<!-- end table for doctor list -->\r\n\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\t<div>\r\n\r\n\r\n<script src=\"../Dashassets/js/Py4ZAUNCz9md.js\"></script>\r\n<script src=\"../Dashassets/js/ze8gppJZjEMa.js\"></script>\r\n<script class=\"include\" type=\"Dashassets/text/javascript\" src=\"../Dashassets/js/NMTwUwpkUl6s.js\"></script>\r\n<script src=\"../Dashassets/js/L6AtHWFwgaJi.js\"></script>\r\n<script src=\"../Dashassets/js/FaMU0TPCXw3s.js\" type=\"Dashassets/text/javascript\"></script>\r\n<script src=\"../Dashassets/js/EdmIX6LYV57Z.js\"></script>\r\n\r\n<script src=\"../Dashassets/js/GYGjIdlUsTny.js\"></script>\r\n<script type=\"../Dashassets/text/javascript\" src=\"../Dashassets/js/3hqrMYtj3L7k.js\"></script>\r\n<script type=\"../Dashassets/text/javascript\" src=\"../Dashassets/js/RcrlNDQpkV64.js\"></script>\r\n\r\n<script src=\"../Dashassets/js/cg3TL0eNXCcl.js\"></script>\r\n<script src=\"../Dashassets/js/Mj5aD5qfUaBz.js\"></script>\r\n<script type=\"text/javascript\">\r\n\t$(document).ready(function() {\r\n\t\tvar unique_id = $.gritter.add({\r\n\t\t\t// (string | mandatory) the heading of the notification\r\n\t\t\ttitle: 'Welcome to Dashio!',\r\n\t\t\t// (string | mandatory) the text inside the notification\r\n\t\t\ttext: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',\r\n\t\t\t// (string | optional) the image to display on the left\r\n\t\t\timage: 'img/ui-sam.jpg',\r\n\t\t\t// (bool | optional) if you want it to fade out on its own or just sit there\r\n\t\t\tsticky: false,\r\n\t\t\t// (int | optional) the time you want it to be alive for before fading out\r\n\t\t\ttime: 8000,\r\n\t\t\t// (string | optional) the class name you want to apply to that specific message\r\n\t\t\tclass_name: 'my-sticky-class'\r\n\t\t});\r\n\r\n\t\treturn false;\r\n\t});\r\n</script>\r\n<script type=\"application/javascript\">\r\n\t$(document).ready(function() {\r\n\t\t$(\"#date-popover\").popover({\r\n\t\t\thtml: true,\r\n\t\t\ttrigger: \"manual\"\r\n\t\t});\r\n\t\t$(\"#date-popover\").hide();\r\n\t\t$(\"#date-popover\").click(function(e) {\r\n\t\t\t$(this).hide();\r\n\t\t});\r\n\r\n\t\t$(\"#my-calendar\").zabuto_calendar({\r\n\t\t\taction: function() {\r\n\t\t\t\treturn myDateFunction(this.id, false);\r\n\t\t\t},\r\n\t\t\taction_nav: function() {\r\n\t\t\t\treturn myNavFunction(this.id);\r\n\t\t\t},\r\n\t\t\tajax: {\r\n\t\t\t\turl: \"show_data.php?action=1\",\r\n\t\t\t\tmodal: true\r\n\t\t\t},\r\n\t\t\tlegend: [{\r\n\t\t\t\ttype: \"text\",\r\n\t\t\t\tlabel: \"Special event\",\r\n\t\t\t\tbadge: \"00\"\r\n\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\ttype: \"block\",\r\n\t\t\t\t\tlabel: \"Regular event\",\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t});\r\n\t});\r\n\r\n\tfunction myNavFunction(id) {\r\n\t\t$(\"#date-popover\").hide();\r\n\t\tvar nav = $(\"#\" + id).data(\"navigation\");\r\n\t\tvar to = $(\"#\" + id).data(\"to\");\r\n\t\tconsole.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);\r\n\t}\r\n</script>\r\n<script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-6', 'auto'); ga('send', 'pageview'); } </script>\r\n\r\n\r\n</body></html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/admin/view_doctor.jsp b/src/main/webapp/admin/view_doctor.jsp
+--- a/src/main/webapp/admin/view_doctor.jsp	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/src/main/webapp/admin/view_doctor.jsp	(date 1711573069176)
+@@ -161,7 +161,7 @@
+ 		<div class="row">
+ 
+ 			<div class="col-md-12">
+-				<div class="card my-card">
++
+ 					<div class="card-body">
+ 						<p class="fs-3 text-center text-danger">List of Doctors</p>
+ 
+@@ -316,4 +316,5 @@
+ <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-6', 'auto'); ga('send', 'pageview'); } </script>
+ 
+ 
+-</body></html>
+\ No newline at end of file
++</body>
++</html>
+\ No newline at end of file
+Index: src/main/webapp/admin/patient.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@page import=\"com.healthTrace.entity.Doctor\"%>\r\n<%@page import=\"com.healthTrace.dao.DoctorDAO\"%>\r\n<%@page import=\"com.healthTrace.entity.Appointment\"%>\r\n<%@page import=\"java.util.List\"%>\r\n<%@page import=\"com.healthTrace.db.DBConnection\"%>\r\n<%@page import=\"com.healthTrace.dao.AppointmentDAO\"%>\r\n<%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\r\n\tpageEncoding=\"UTF-8\"%>\r\n\r\n<!-- for jstl tag -->\r\n<%@ taglib prefix=\"c\" uri=\"http://java.sun.com/jsp/jstl/core\"%>\r\n<!-- end of jstl tag -->\r\n\r\n<%@page isELIgnored=\"false\"%>\r\n\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<title>Patient Details | Admin</title>\r\n\r\n\t<%@include file=\"../component/allcss.jsp\"%>\r\n\r\n\t<link href=\"../Dashassets/images/7zvDN2okWbny.png\" rel=\"icon\">\r\n\t<link href=\"../Dashassets/images/V9OAuGdBb0Qh.png\" rel=\"apple-touch-icon\">\r\n\r\n\t<link href=\"../Dashassets/css/503uKmQN8xls.css\" rel=\"stylesheet\">\r\n\r\n\t<link href=\"../Dashassets/css/per8hcNp7jdl.css\" rel=\"stylesheet\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../Dashassets/css/bnsLJI6BAg3h.css\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../Dashassets/css/jz3x9DhP6jJ7.css\">\r\n\r\n\t<link href=\"../Dashassets/css/9NAoFREDLVA6.css\" rel=\"stylesheet\">\r\n\t<link href=\"../Dashassets/css/l4gqiphJ7KXZ.css\" rel=\"stylesheet\">\r\n\r\n\r\n\t<!-- Boostrap CSS -->\r\n\t<link\r\n\t\t\thref=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\"\r\n\t\t\trel=\"stylesheet\"\r\n\t\t\tintegrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\"\r\n\t\t\tcrossorigin=\"anonymous\">\r\n\t<!-- End Boostrap CSS -->\r\n\r\n\t<!-- Font awesome css -->\r\n\t<link rel=\"stylesheet\"\r\n\t\t  href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\"\r\n\t\t  integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\"\r\n\t\t  crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n\t<!-- End Font awesome css -->\r\n\r\n\t<!--font awesome css-->\r\n\t<link rel=\"stylesheet\"\r\n\t\t  href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n\r\n\t<!-- Boostrap JS -->\r\n\t<%--<script--%>\r\n\t<%--\t\tsrc=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"--%>\r\n\t<%--\t\tintegrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\"--%>\r\n\t<%--\t\tcrossorigin=\"anonymous\"></script>--%>\r\n\r\n\r\n\t<script async=\"\" src=\"Dashassets/js/0vgv07pFj0mD.js\"></script><script src=\"Dashassets/js/Mx6K2iHOd1T0.js\"></script>\r\n\r\n\r\n\t<!-- customs css for this page -->\r\n\t<style type=\"text/css\">\r\n\t\t.my-card {\r\n\t\t\tbox-shadow: 0px 0px 10px 1px #b4fafa;\r\n\t\t\t/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/\r\n\t\t}\r\n\t\t.my-card {\r\n\t\t\theight: 150px; /* Adjust the height of the boxes */\r\n\t\t\tmargin-bottom: 20px; /* Increase the margin between boxes */\r\n\t\t\tpadding: 20px; /* Add padding to the boxes */\r\n\t\t}\r\n\r\n\t</style>\r\n\t<!-- end of customs css for this page -->\r\n\r\n\r\n</head>\r\n<body>\r\n\t<%@include file=\"navbar.jsp\"%>\r\n\t<aside>\r\n\t\t<div id=\"sidebar\" class=\"nav-collapse \"style=\"border-radius: 10px;height: 600px;width: 210px;\">\r\n\r\n\t\t\t<ul class=\"sidebar-menu\" id=\"nav-accordion\">\r\n\t\t\t\t<p class=\"centered\"><a href=\"profile.html\"><i class=\"fa-solid fa-user  fa-10x\"style=\"color: ghostwhite\"></i> </a></p>\r\n\t\t\t\t<h5 class=\"centered\">Admin</h5>\r\n\t\t\t\t<li class=\"mt\">\r\n\t\t\t\t\t<a class=\"active\" href=\"index.jsp\">\r\n\t\t\t\t\t\t<i class=\"fa fa-dashboard\"></i>\r\n\t\t\t\t\t\t<span>Dashboard</span>\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"sub-menu\">\r\n\t\t\t\t\t<a href=\"view_doctor.jsp\">\r\n\t\t\t\t\t\t<i class=\"fa fa-users\"></i>\r\n\t\t\t\t\t\t<span>Doctors</span>\r\n\t\t\t\t\t</a></li>\r\n\t\t\t\t<li class=\"sub-menu\">\r\n\t\t\t\t\t<a href=\"patient.jsp\">\r\n\t\t\t\t\t\t<i class=\"fa fa-book\"></i>\r\n\t\t\t\t\t\t<span>Appointments</span>\r\n\t\t\t\t\t</a>\r\n\r\n\t\t\t\t</li>\r\n\r\n\r\n\r\n\t\t\t\t<li class=\"sub-menu\">\r\n\t\t\t\t\t<a href=\"specialist.jsp\">\r\n\t\t\t\t\t\t<i class=\"fa fa-star-half-empty\"></i>\r\n\t\t\t\t\t\t<span>Specialists</span>\r\n\t\t\t\t\t</a>\r\n\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\r\n\t\t</div>\r\n\t</aside>\r\n\r\n\t<section id=\"main-content\">\r\n\t\t<p class=\"text-center text-success fs-3\">Admin Dashboard</p>\r\n\r\n\t\t<!-- col-2 --><div style=\"position: relative;margin: 30px;background-color: #afc8fa;padding: 10px\">\r\n\r\n\t\t<div class=\"container-fluid p-3\">\r\n\t\t\t<div class=\"row\">\r\n\r\n\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t<div class=\"card my-card\">\r\n\t\t\t\t\t\t<div class=\"card-body\">\r\n\t\t\t\t\t\t\t<p class=\"text-center text-danger fs-3\">Patient Appointment Details</p>\r\n\r\n\t\t\t\t\t\t\t<table class=\"table table-success table-striped\">\r\n\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t<tr class=\"table\">\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\" style=\"padding-right:70px\">Full Name</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\">Gender</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\">Age</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\">Appointment</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\">Email</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\">Phone</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\" style=\"padding-right:50px\">Diseases</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\" style=\"padding-right:70px\">Doctor Name</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\">Address</th>\r\n\t\t\t\t\t\t\t\t\t<th scope=\"col\" style=\"padding-right:100px\">Status</th>\r\n\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t<tbody>\r\n\r\n\t\t\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t\t\t\tAppointmentDAO appDAO = new AppointmentDAO(DBConnection.getConn());\r\n\t\t\t\t\t\t\t\t\tDoctorDAO docDAO = new DoctorDAO(DBConnection.getConn());\r\n\t\t\t\t\t\t\t\t\tList<Appointment> list = appDAO.getAllAppointment();\r\n\t\t\t\t\t\t\t\t\tfor(Appointment appList : list)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\tDoctor doctor =\tdocDAO.getDoctorById(appList.getDoctorId());\r\n\t\t\t\t\t\t\t\t%>\r\n\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<th><%= appList.getFullName() %></th>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getGender() %></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getAge() %></td>\r\n\t\t\t\t\t\t\t\t\t<%-- <td><%= appList.getFullName() %></td> --%>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getAppointmentDate()%></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getEmail()%></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getPhone()%></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getDiseases()%></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= doctor.getFullName()%></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getAddress()%></td>\r\n\t\t\t\t\t\t\t\t\t<td><%= appList.getStatus()%></td>\r\n\r\n\t\t\t\t\t\t\t\t</tr>\r\n\r\n\r\n\t\t\t\t\t\t\t\t<%\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t%>\r\n\r\n\r\n\t\t\t\t\t\t\t\t</tbody>\r\n\r\n\t\t\t\t\t\t\t</table>\r\n\r\n\t\t\t\t\t\t</div>\r\n\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\r\n\t\t<div>\r\n\r\n\r\n\t\t\t<script src=\"../Dashassets/js/Py4ZAUNCz9md.js\"></script>\r\n\t\t\t<script src=\"../Dashassets/js/ze8gppJZjEMa.js\"></script>\r\n\t\t\t<script class=\"include\" type=\"Dashassets/text/javascript\" src=\"../Dashassets/js/NMTwUwpkUl6s.js\"></script>\r\n\t\t\t<script src=\"../Dashassets/js/L6AtHWFwgaJi.js\"></script>\r\n\t\t\t<script src=\"../Dashassets/js/FaMU0TPCXw3s.js\" type=\"Dashassets/text/javascript\"></script>\r\n\t\t\t<script src=\"../Dashassets/js/EdmIX6LYV57Z.js\"></script>\r\n\r\n\t\t\t<script src=\"../Dashassets/js/GYGjIdlUsTny.js\"></script>\r\n\t\t\t<script type=\"../Dashassets/text/javascript\" src=\"../Dashassets/js/3hqrMYtj3L7k.js\"></script>\r\n\t\t\t<script type=\"../Dashassets/text/javascript\" src=\"../Dashassets/js/RcrlNDQpkV64.js\"></script>\r\n\r\n\t\t\t<script src=\"../Dashassets/js/cg3TL0eNXCcl.js\"></script>\r\n\t\t\t<script src=\"../Dashassets/js/Mj5aD5qfUaBz.js\"></script>\r\n\t\t\t<script type=\"text/javascript\">\r\n\t\t\t\t$(document).ready(function() {\r\n\t\t\t\t\tvar unique_id = $.gritter.add({\r\n\t\t\t\t\t\t// (string | mandatory) the heading of the notification\r\n\t\t\t\t\t\ttitle: 'Welcome to Dashio!',\r\n\t\t\t\t\t\t// (string | mandatory) the text inside the notification\r\n\t\t\t\t\t\ttext: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',\r\n\t\t\t\t\t\t// (string | optional) the image to display on the left\r\n\t\t\t\t\t\timage: 'img/ui-sam.jpg',\r\n\t\t\t\t\t\t// (bool | optional) if you want it to fade out on its own or just sit there\r\n\t\t\t\t\t\tsticky: false,\r\n\t\t\t\t\t\t// (int | optional) the time you want it to be alive for before fading out\r\n\t\t\t\t\t\ttime: 8000,\r\n\t\t\t\t\t\t// (string | optional) the class name you want to apply to that specific message\r\n\t\t\t\t\t\tclass_name: 'my-sticky-class'\r\n\t\t\t\t\t});\r\n\r\n\t\t\t\t\treturn false;\r\n\t\t\t\t});\r\n\t\t\t</script>\r\n\t\t\t<script type=\"application/javascript\">\r\n\t\t\t\t$(document).ready(function() {\r\n\t\t\t\t\t$(\"#date-popover\").popover({\r\n\t\t\t\t\t\thtml: true,\r\n\t\t\t\t\t\ttrigger: \"manual\"\r\n\t\t\t\t\t});\r\n\t\t\t\t\t$(\"#date-popover\").hide();\r\n\t\t\t\t\t$(\"#date-popover\").click(function(e) {\r\n\t\t\t\t\t\t$(this).hide();\r\n\t\t\t\t\t});\r\n\r\n\t\t\t\t\t$(\"#my-calendar\").zabuto_calendar({\r\n\t\t\t\t\t\taction: function() {\r\n\t\t\t\t\t\t\treturn myDateFunction(this.id, false);\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\taction_nav: function() {\r\n\t\t\t\t\t\t\treturn myNavFunction(this.id);\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tajax: {\r\n\t\t\t\t\t\t\turl: \"show_data.php?action=1\",\r\n\t\t\t\t\t\t\tmodal: true\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tlegend: [{\r\n\t\t\t\t\t\t\ttype: \"text\",\r\n\t\t\t\t\t\t\tlabel: \"Special event\",\r\n\t\t\t\t\t\t\tbadge: \"00\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\ttype: \"block\",\r\n\t\t\t\t\t\t\t\tlabel: \"Regular event\",\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t]\r\n\t\t\t\t\t});\r\n\t\t\t\t});\r\n\r\n\t\t\t\tfunction myNavFunction(id) {\r\n\t\t\t\t\t$(\"#date-popover\").hide();\r\n\t\t\t\t\tvar nav = $(\"#\" + id).data(\"navigation\");\r\n\t\t\t\t\tvar to = $(\"#\" + id).data(\"to\");\r\n\t\t\t\t\tconsole.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);\r\n\t\t\t\t}\r\n\t\t\t</script>\r\n\t\t\t<script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-6', 'auto'); ga('send', 'pageview'); } </script>\r\n\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/admin/patient.jsp b/src/main/webapp/admin/patient.jsp
+--- a/src/main/webapp/admin/patient.jsp	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/src/main/webapp/admin/patient.jsp	(date 1711573064642)
+@@ -132,7 +132,7 @@
+ 			<div class="row">
+ 
+ 				<div class="col-md-12">
+-					<div class="card my-card">
++
+ 						<div class="card-body">
+ 							<p class="text-center text-danger fs-3">Patient Appointment Details</p>
+ 
+Index: src/main/webapp/userindex.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@page import=\"com.healthTrace.db.DBConnection\"%>\r\n<%@page import=\"java.sql.Connection\"%>\r\n<%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\r\n         pageEncoding=\"UTF-8\"%>\r\n\r\n<!-- for jstl tag -->\r\n<%@ taglib prefix=\"c\" uri=\"http://java.sun.com/jsp/jstl/core\"%>\r\n<!-- end of jstl tag -->\r\n\r\n<%@page isELIgnored=\"false\"%>\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 \">\r\n    <link href=\"assets/css/main.css\" rel=\"stylesheet\">\r\n    <link href=\"assets/css/utilities.css\" rel=\"stylesheet\">\r\n\r\n\r\n    <title>Home Page | healthTrace</title>\r\n    <%@include file=\"component/allcss.jsp\"%>\r\n\r\n\r\n    <link href=\"Dashassets/images/7zvDN2okWbny.png\" rel=\"icon\">\r\n    <link href=\"Dashassets/images/V9OAuGdBb0Qh.png\" rel=\"apple-touch-icon\">\r\n\r\n    <link href=\"Dashassets/css/503uKmQN8xls.css\" rel=\"stylesheet\">\r\n\r\n    <link href=\"Dashassets/css/per8hcNp7jdl.css\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"Dashassets/css/bnsLJI6BAg3h.css\">\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"Dashassets/css/jz3x9DhP6jJ7.css\">\r\n\r\n    <link href=\"Dashassets/css/9NAoFREDLVA6.css\" rel=\"stylesheet\">\r\n    <link href=\"Dashassets/css/l4gqiphJ7KXZ.css\" rel=\"stylesheet\">\r\n\r\n\r\n    <!-- Boostrap CSS -->\r\n    <link\r\n            href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\"\r\n            rel=\"stylesheet\"\r\n            integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\"\r\n            crossorigin=\"anonymous\">\r\n    <!-- End Boostrap CSS -->\r\n\r\n    <!-- Font awesome css -->\r\n    <link rel=\"stylesheet\"\r\n          href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\"\r\n          integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\"\r\n          crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n    <!-- End Font awesome css -->\r\n\r\n    <!--font awesome css-->\r\n    <link rel=\"stylesheet\"\r\n          href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n\r\n    <!-- Boostrap JS -->\r\n    <%--<script--%>\r\n    <%--\t\tsrc=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"--%>\r\n    <%--\t\tintegrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\"--%>\r\n    <%--\t\tcrossorigin=\"anonymous\"></script>--%>\r\n\r\n\r\n    <script async=\"\" src=\"Dashassets/js/0vgv07pFj0mD.js\"></script><script src=\"Dashassets/js/Mx6K2iHOd1T0.js\"></script>\r\n\r\n    <!-- customs css for this page -->\r\n\r\n<style>\r\n    .clickable-box {\r\n    cursor: pointer;\r\n}\r\n</style>\r\n</head>\r\n<body>\r\n<nav class=\"navbar navbar-expand-lg navbar-dark sticky-top\"style=\"background-color: #348aa1;padding-top: 50px;padding-bottom: 30px;padding-left: 60px;padding-right: 60px\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"sidebar-toggle-box\">\r\n            <div class=\"fa fa-bars tooltips\" data-placement=\"right\" data-original-title=\"Toggle Navigation\"></div>\r\n        </div>\r\n\r\n        <a href=\"index.jsp\" class=\"logo\" style=\"text-decoration: none;\"><b>health<span style=\"font-variant: small-caps;\">Trace</span></b></a>\r\n\r\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\"\r\n                data-bs-target=\"#navbarSupportedContent\"\r\n                aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\"\r\n                aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n            <!-- original ul <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\"> -->\r\n            <ul class=\"navbar-nav ms-auto mb-2 mb-lg-0\">\r\n\r\n                <!-- if user not logged in then user can see below items -->\r\n                <!-- to create dynamic navbar -->\r\n\r\n                <!-- means user is log in -->\r\n                <li class=\"nav-item\"><p class=\"nav-link active\"\r\n                                        aria-current=\"page\" ><i class=\"fa-regular fa-face-smile-beam\"></i> Welcome Back!</p></li>\r\n\r\n\r\n                <div class=\"dropdown\">\r\n                    <button class=\"btn btn-outline-light dropdown-toggle\" type=\"button\"\r\n                            id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\"\r\n                            aria-expanded=\"false\">\r\n                        <i class=\"fa-solid fa-circle-user\"></i> ${userObj.fullName}\r\n                    </button>\r\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton1\">\r\n                        <li><a class=\"dropdown-item\" href=\"change_password.jsp\">Change Password</a></li>\r\n                        <li><a class=\"dropdown-item\" href=\"userLogout\">Logout</a></li>\r\n\r\n                    </ul>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n                <!-- end of if user is logged in then user can see below items -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n            </ul>\r\n\r\n        </div>\r\n    </div>\r\n</nav>\r\n<aside>\r\n    <div id=\"sidebar\" class=\"nav-collapse \"style=\"border-radius: 10px;height: 600px;width: 210px;\">\r\n\r\n        <ul class=\"sidebar-menu\" id=\"nav-accordion\">\r\n            <p class=\"centered\"><a href=\"userindex.jsp\"><i class=\"fa-solid fa-user  fa-10x\"style=\"color: ghostwhite\"></i> </a></p>\r\n            <c:if test=\"${not empty userObj}\">\r\n                <div class=\"centered\" style=\"font-size: 24px;color: ghostwhite\"> <!-- Adjust font size as needed -->\r\n                        ${userObj.fullName}\r\n                </div>\r\n            </c:if>\r\n            <li class=\"mt\">\r\n                <a class=\"active\" href=\"userindex.jsp\">\r\n                    <i class=\"fa fa-dashboard\"></i>\r\n                    <span>Overview</span>\r\n                </a>\r\n            </li>\r\n            </li>\r\n            <li class=\"sub-menu\">\r\n                <a href=\"logged_In_appointment.jsp\">\r\n                    <i class=\"fa fa-book\"></i>\r\n                    <span>Appointments</span>\r\n                </a>\r\n\r\n            </li>\r\n\r\n            <li>\r\n\r\n\r\n            <li class=\"sub-menu\">\r\n                <a href=\"javascript:;\">\r\n                    <i class=\"fa fa-comments-o\"></i>\r\n                    <span>Chat Room</span>\r\n                </a>\r\n                <ul class=\"sub\">\r\n                    <li><a href=\"lobby.html\">Lobby</a></li>\r\n                    <li><a href=\"chat_room.html\"> Chat Room</a></li>\r\n                </ul>\r\n            </li>\r\n        </ul>\r\n\r\n    </div>\r\n</aside>\r\n\r\n\r\n\r\n<section id=\"main-content\">\r\n    <section class=\"wrapper\">\r\n\r\n\r\n        <div class=\"row mt\">\r\n\r\n            <div class=\"col-md-4 col-sm-4 mb\" href=\"\">\r\n                <div class=\"grey-panel pn donut-chart\">\r\n                    <div class=\"grey-header\">\r\n                        <h5>USER DETAILS</h5>\r\n                    </div>\r\n\r\n                    <div class=\"card my-card\">\r\n                        <div class=\"card-body text-center text-success\">\r\n                            <i class=\"fa-solid fa-user-plus fa-10x\"></i><br>\r\n                            <p class=\"fs-4 text-center\">\r\n                                Total:\r\n                            </p>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n\r\n            </div>\r\n\r\n             <div class=\"col-md-4 col-sm-4 mb\">\r\n                 <a href=\"viewAppointment.jsp\" style=\"text-decoration: none; color: inherit;\">\r\n\r\n                 <div class=\"darkblue-panel pn clickable-box\">\r\n                        <div class=\"darkblue-header\">\r\n                            <h5>VIEW APPOINTMENTS</h5>\r\n                        </div>\r\n                        <div class=\"card my-card\">\r\n                            <div class=\"card-body text-center text-success\">\r\n                                <i class=\"fa-solid fa-calendar-check fa-10x\"></i><br>\r\n                                <p class=\"fs-4 text-center\">Total Appointment <br></p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                 </a>\r\n                </div>\r\n\r\n\r\n            <div class=\"col-md-4 col-sm-4 mb\">\r\n\r\n                <div class=\"green-panel pn\">\r\n                    <div class=\"green-header\">\r\n                        <h5>CHAT ROOM</h5>\r\n                    </div>\r\n                    <div class=\"card my-card\">\r\n                        <div class=\"card-body text-center text-success\">\r\n                            <i class=\"fa-solid fa-comments fa-10x\"></i><br>\r\n                            <p class=\"fs-4 text-center\">\r\n\r\n                                Total messages <br> </p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n\r\n        <div class=\"row\"style=\"margin-top: 20px\">\r\n\r\n\r\n            <div class=\"col-md-8 mb\"STYLE=\"margin-top: 20px\">\r\n                <div class=\"message-p pn\">\r\n                    <div class=\"message-header\">\r\n                        <h5>DIRECT MESSAGE(DM)</h5>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-3 centered hidden-sm hidden-xs\">\r\n                            <i class=\"fa-solid fa-user  fa-4x\"style=\"color: #44444b\"></i>\r\n\r\n                        </div>\r\n                        <div class=\"col-md-9\">\r\n                            <p>\r\n                                <name>Doctor Wesonga</name>\r\n                                sent you a message.\r\n                            </p>\r\n                            <p class=\"small\">3 hours ago</p>\r\n                            <p class=\"message\">Hello Doctor Wesonga. I think am going on just fine after the chemo.Thanks so much Doc...looking forward to see you on wednesday</p>\r\n                            <form class=\"form-inline\" role=\"form\">\r\n                                <div class=\"form-group\">\r\n                                    <input type=\"text\" class=\"form-control\" id=\"exampleInputText\" placeholder=\"Reply Doc\">\r\n                                </div>\r\n                                <button type=\"submit\" class=\"btn btn-default\">Send</button>\r\n                            </form>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n\r\n        </div>\r\n\r\n\r\n\r\n        </div>\r\n\r\n    </section>\r\n</section>\r\n\r\n\r\n<footer class=\"site-footer\">\r\n    <div class=\"text-center\">\r\n        <p>\r\n            © Copyrights 2024<strong>Group 12</strong>. All Rights Reserved\r\n        </p>\r\n        <div class=\"credits\">\r\n\r\n            Created with Dashio template by <a href=\"https://templatemag.com/\">TemplateMag</a>\r\n        </div>\r\n        <a href=\"index.html#\" class=\"go-top\">\r\n            <i class=\"fa fa-angle-up\"></i>\r\n        </a>\r\n    </div>\r\n</footer>\r\n\r\n\r\n<script src=\"Dashassets/js/Py4ZAUNCz9md.js\"></script>\r\n<script src=\"Dashassets/js/ze8gppJZjEMa.js\"></script>\r\n<script class=\"include\" type=\"Dashassets/text/javascript\" src=\"Dashassets/js/NMTwUwpkUl6s.js\"></script>\r\n<script src=\"Dashassets/js/L6AtHWFwgaJi.js\"></script>\r\n<script src=\"Dashassets/js/FaMU0TPCXw3s.js\" type=\"Dashassets/text/javascript\"></script>\r\n<script src=\"Dashassets/js/EdmIX6LYV57Z.js\"></script>\r\n\r\n<script src=\"Dashassets/js/GYGjIdlUsTny.js\"></script>\r\n<script type=\"Dashassets/text/javascript\" src=\"Dashassets/js/3hqrMYtj3L7k.js\"></script>\r\n<script type=\"Dashassets/text/javascript\" src=\"Dashassets/js/RcrlNDQpkV64.js\"></script>\r\n\r\n<script src=\"Dashassets/js/cg3TL0eNXCcl.js\"></script>\r\n<script src=\"Dashassets/js/Mj5aD5qfUaBz.js\"></script>\r\n<script type=\"text/javascript\">\r\n    $(document).ready(function() {\r\n        var unique_id = $.gritter.add({\r\n            // (string | mandatory) the heading of the notification\r\n            title: 'Welcome to Dashio!',\r\n            // (string | mandatory) the text inside the notification\r\n            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',\r\n            // (string | optional) the image to display on the left\r\n            image: 'img/ui-sam.jpg',\r\n            // (bool | optional) if you want it to fade out on its own or just sit there\r\n            sticky: false,\r\n            // (int | optional) the time you want it to be alive for before fading out\r\n            time: 8000,\r\n            // (string | optional) the class name you want to apply to that specific message\r\n            class_name: 'my-sticky-class'\r\n        });\r\n\r\n        return false;\r\n    });\r\n</script>\r\n<script type=\"application/javascript\">\r\n    $(document).ready(function() {\r\n        $(\"#date-popover\").popover({\r\n            html: true,\r\n            trigger: \"manual\"\r\n        });\r\n        $(\"#date-popover\").hide();\r\n        $(\"#date-popover\").click(function(e) {\r\n            $(this).hide();\r\n        });\r\n\r\n        $(\"#my-calendar\").zabuto_calendar({\r\n            action: function() {\r\n                return myDateFunction(this.id, false);\r\n            },\r\n            action_nav: function() {\r\n                return myNavFunction(this.id);\r\n            },\r\n            ajax: {\r\n                url: \"show_data.php?action=1\",\r\n                modal: true\r\n            },\r\n            legend: [{\r\n                type: \"text\",\r\n                label: \"Special event\",\r\n                badge: \"00\"\r\n            },\r\n                {\r\n                    type: \"block\",\r\n                    label: \"Regular event\",\r\n                }\r\n            ]\r\n        });\r\n    });\r\n\r\n    function myNavFunction(id) {\r\n        $(\"#date-popover\").hide();\r\n        var nav = $(\"#\" + id).data(\"navigation\");\r\n        var to = $(\"#\" + id).data(\"to\");\r\n        console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);\r\n    }\r\n</script>\r\n<script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-6', 'auto'); ga('send', 'pageview'); } </script>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/userindex.jsp b/src/main/webapp/userindex.jsp
+--- a/src/main/webapp/userindex.jsp	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/src/main/webapp/userindex.jsp	(date 1711573066084)
+@@ -319,7 +319,7 @@
+     $(document).ready(function() {
+         var unique_id = $.gritter.add({
+             // (string | mandatory) the heading of the notification
+-            title: 'Welcome to Dashio!',
++            title: 'Welcome to healthTrace!',
+             // (string | mandatory) the text inside the notification
+             text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',
+             // (string | optional) the image to display on the left
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 250c88cf3de16aa1bfca0aac977f0529a254d38b)
++++ b/.idea/vcs.xml	(date 1711573068256)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="" />
+   </component>
+ </project>
+\ No newline at end of file
