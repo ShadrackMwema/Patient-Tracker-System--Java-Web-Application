@@ -1,6 +1,11 @@
 <%@page import="com.healthTrace.db.DBConnection"%>
 <%@page import="java.sql.Connection"%>
+<%@ page import="com.healthTrace.dao.AppointmentDAO" %>
 <%@ page import="com.healthTrace.dao.DoctorDAO" %>
+<%@ page import="com.healthTrace.entity.Doctor" %>
+<%@ page import="com.healthTrace.entity.Appointment" %>
+<%@ page import="java.util.List" %>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 
@@ -67,11 +72,11 @@
 
     <!-- customs css for this page -->
 
-<style>
-    .clickable-box {
-    cursor: pointer;
-}
-</style>
+    <style>
+        .clickable-box {
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top"style="background-color: #348aa1;padding-top: 50px;padding-bottom: 30px;padding-left: 60px;padding-right: 60px">
@@ -178,117 +183,42 @@
 
 
 <section id="main-content">
-    <section class="wrapper">
+    <p class="text-center text-success fs-3">Patient Dashboard</p>
 
+    <!-- col-2 --><div style="position: relative;margin: 30px;background-color: #afc8fa;padding: 10px">
 
-        <div class="row mt">
+    <div class="container-fluid p-3">
+        <div class="row">
 
-            <div class="col-md-4 col-sm-4 mb">
-                <a href="personal_details.jsp" style="text-decoration: none; color: inherit;">
+            <div class="col-md-12">
 
-                <div class="grey-panel pn donut-chart">
-                    <div class="grey-header">
-                        <h5>PERSONAL DETAILS</h5>
-                    </div>
-
-                    <div class="card my-card">
-                        <div class="card-body text-center text-success">
-                            <i class="fa-solid fa-user-plus fa-10x"></i><br>
-                            <p class="fs-4 text-center">
-                             click to view
-                            </p>
+                <div class="card-body">
+                    <p class="text-center text-danger fs-3">Personal Details</p>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <p class="form-control-static"></p>${userObj.fullName}
                         </div>
-                    </div>
+                        <div class="mb-3">
+                            <label  class="form-label">Email</label>
+                            <p class="form-control-static"></p>${userObj.email}
+                        </div>
+
+
+
+                    </form>
 
 
                 </div>
-                </a>
 
-            </div>
-
-             <div class="col-md-4 col-sm-4 mb">
-                 <a href="viewAppointment.jsp" style="text-decoration: none; color: inherit;">
-
-                 <div class="darkblue-panel pn clickable-box">
-                        <div class="darkblue-header">
-                            <h5>APPOINTMENTS</h5>
-                        </div>
-                        <div class="card my-card">
-                            <div class="card-body text-center text-success">
-                                <i class="fa-solid fa-calendar-check fa-10x"></i><br>
-                                <p class="fs-4 text-center">Make new appointments  <br></p>
-                                <p class="fs-4 text-center">View appointments  <br></p>
-                            </div>
-                        </div>
-                    </div>
-                 </a>
-                </div>
-
-
-            <div class="col-md-4 col-sm-4 mb">
-
-                <div class="green-panel pn">
-                    <div class="green-header">
-                        <h5>CHAT ROOM</h5>
-                    </div>
-                    <div class="card my-card">
-                        <div class="card-body text-center text-success">
-                            <i class="fa-solid fa-comments fa-10x"></i><br>
-                            <p class="fs-4 text-center">
-
-                                View messages<br> </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row"style="margin-top: 20px">
-
-
-            <div class="col-md-8 mb"STYLE="margin-top: 20px">
-                <div class="message-p pn">
-                    <div class="message-header">
-                        <h5>DIRECT MESSAGE(DM)</h5>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 centered hidden-sm hidden-xs">
-                            <i class="fa-solid fa-user  fa-4x"style="color: #44444b"></i>
-
-                        </div>
-                        <div class="col-md-9">
-                            <p>
-                                <name>Doctor Wesonga</name>
-                                sent you a message.
-                            </p>
-                            <p class="small">3 hours ago</p>
-                            <p class="message">Hello Doctor Wesonga. I think am going on just fine after the chemo.Thanks so much Doc...looking forward to see you on wednesday</p>
-                            <form class="form-inline" role="form">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="exampleInputText" placeholder="Reply Doc">
-                                </div>
-                                <button type="submit" class="btn btn-default">Send</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
         </div>
+    </div>
+</div>
 
 
-
-
-        </div>
-
-
-
-        </div>
-
-    </section>
 </section>
 
 

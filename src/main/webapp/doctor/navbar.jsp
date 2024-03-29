@@ -30,13 +30,9 @@
 
 
 
-				<li class="nav-item"><a class="nav-link active" aria-current="page" href="user_login.jsp"><i class="fas fa-sign-in-alt"></i> USER</a></li>
-				<li class="nav-item"><a class="nav-link active"
-										aria-current="page" href="doctor_login.jsp">
-					<i class="fas fa-sign-in-alt"></i> DOCTOR</a></li>
-				<li class="nav-item"><a class="nav-link active"
-										aria-current="page" href="admin_login.jsp"><i
-						class="fa-solid fa-right-to-bracket"></i> ADMIN</a></li>
+				<li class="nav-item"><p class="nav-link active"
+										aria-current="page" ><i class="fa-regular fa-face-smile-beam"></i> Welcome Back Dr. ${doctorObj.fullName}!</p></li>
+
 
 				<!-- end if user not logged in then user can see below items -->
 				<li class="nav-item">

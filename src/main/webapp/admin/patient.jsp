@@ -132,7 +132,7 @@
 			<div class="row">
 
 				<div class="col-md-12">
-					<div class="card my-card">
+
 						<div class="card-body">
 							<p class="text-center text-danger fs-3">Patient Appointment Details</p>
 

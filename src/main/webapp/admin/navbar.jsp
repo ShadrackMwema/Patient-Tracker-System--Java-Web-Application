@@ -26,10 +26,8 @@
 
 
 
-				<li class="nav-item"><a class="nav-link active" aria-current="page" href="user_login.jsp"><i class="fas fa-sign-in-alt"></i> USER</a></li>
-				<li class="nav-item"><a class="nav-link active"
-										aria-current="page" href="doctor_login.jsp">
-					<i class="fas fa-sign-in-alt"></i> DOCTOR</a></li>
+				<li class="nav-item"><p class="nav-link active"
+										aria-current="page" ><i class="fa-regular fa-face-smile-beam"></i> Welcome Back!</p></li>
 
 
 				<!-- end if user not logged in then user can see below items -->

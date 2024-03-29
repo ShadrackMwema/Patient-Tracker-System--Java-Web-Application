@@ -11,41 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/docAppointment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/viewAppointment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/personal_details.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/DoctorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/SpecialistDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/db/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/doctor/servlet/DoctorLoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserLoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/UserRegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/9NAoFREDLVA6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Dashassets/css/bnsLJI6BAg3h.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor_login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/doc3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +60,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -128,6 +102,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -358,6 +333,8 @@
       <workItem from="1710683570333" duration="2773000" />
       <workItem from="1710699421976" duration="3124000" />
       <workItem from="1710769301991" duration="33415000" />
+      <workItem from="1711705185805" duration="373000" />
+      <workItem from="1711712608837" duration="4780000" />
     </task>
     <task id="LOCAL-00001" summary="Updating dashboards and navbars">
       <option name="closed" value="true" />
@@ -375,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710146146767</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updating dashboards and navbars">
+      <option name="closed" value="true" />
+      <created>1711573759804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711573759804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,14 +403,18 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/userindex.jsp</url>
-          <line>244</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp</url>
           <line>335</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/personal_details.jsp</url>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/personal_details.jsp</url>
+          <line>184</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
