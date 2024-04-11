@@ -62,20 +62,6 @@
 
 
 	<!-- customs css for this page -->
-	<style type="text/css">
-		.my-card {
-			box-shadow: 0px 0px 10px 1px #b4fafa;
-			/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
-		}
-		.my-card {
-			height: 150px; /* Adjust the height of the boxes */
-			margin-bottom: 20px; /* Increase the margin between boxes */
-			padding: 20px; /* Add padding to the boxes */
-		}
-
-	</style>
-	<!-- end of customs css for this page -->
-
 
 
 </head>
@@ -153,7 +139,6 @@
 </aside>
 
 <section id="main-content">
-	<p class="text-center text-success fs-3">Admin Dashboard</p>
 
 	<!-- col-2 --><div style="position: relative;margin: 30px;background-color: #afc8fa;padding: 10px">
 
@@ -161,7 +146,10 @@
 		<div class="row">
 
 			<div class="col-md-12">
-				<div class="card my-card">
+				<div style="text-align: right;">
+					<button type="button" class="btn btn-primary" onclick="window.location.href='doctor.jsp';">Add Doctor</button>
+				</div>
+
 					<div class="card-body">
 						<p class="fs-3 text-center text-danger">List of Doctors</p>
 
@@ -231,7 +219,7 @@
 
 					</div>
 
-				</div>
+
 			</div>
 		</div>
 	</div>

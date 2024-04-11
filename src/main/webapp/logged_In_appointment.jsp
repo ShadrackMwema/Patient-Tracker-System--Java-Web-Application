@@ -22,7 +22,7 @@
     <link href="assets/css/utilities.css" rel="stylesheet">
 
 
-    <title>Home Page | healthTrace</title>
+    <title>Appointments | healthTrace</title>
     <%@include file="component/allcss.jsp"%>
 
 
@@ -106,7 +106,7 @@
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>
 
-        <a href="index.jsp" class="logo" style="text-decoration: none;"><b>health<span style="font-variant: small-caps;">Trace</span></b></a>
+        <a href="userindex.jsp" class="logo" style="text-decoration: none;"><b>health<span style="font-variant: small-caps;">Trace</span></b></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -335,7 +335,7 @@
             © Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
         </p>
 
-        <a href="index.html#" class="go-top">
+        <a href="userindex.jsp" class="go-top">
             <i class="fa fa-angle-up"></i>
         </a>
     </div>
@@ -355,26 +355,7 @@
 
 <script src="Dashassets/js/cg3TL0eNXCcl.js"></script>
 <script src="Dashassets/js/Mj5aD5qfUaBz.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        var unique_id = $.gritter.add({
-            // (string | mandatory) the heading of the notification
-            title: 'Welcome to Dashio!',
-            // (string | mandatory) the text inside the notification
-            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',
-            // (string | optional) the image to display on the left
-            image: 'img/ui-sam.jpg',
-            // (bool | optional) if you want it to fade out on its own or just sit there
-            sticky: false,
-            // (int | optional) the time you want it to be alive for before fading out
-            time: 8000,
-            // (string | optional) the class name you want to apply to that specific message
-            class_name: 'my-sticky-class'
-        });
 
-        return false;
-    });
-</script>
 <script type="application/javascript">
     $(document).ready(function() {
         $("#date-popover").popover({

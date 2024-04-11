@@ -127,14 +127,14 @@
 				<li>
 
 				<li class="sub-menu">
-					<a href="javascript:;">
+					<a href="chat_room.jsp">
 						<i class="fa fa-comments-o"></i>
 						<span>Chat Room</span>
 					</a>
 
 				</li>
 				<li class="sub-menu">
-					<a href="javascript:;">
+					<a href="personal_details.jsp">
 						<i class="fa fa-user-doctor"></i>
 						<span>Personal Details</span>
 					</a>
@@ -153,7 +153,7 @@
 			<div class="row mt">
 
 				<div class="col-md-4 col-sm-4 mb">
-					<a href="personalDetails.jsp" style="text-decoration: none; color: inherit;">
+					<a href="personal_details.jsp" style="text-decoration: none; color: inherit;">
 
 					<div class="grey-panel pn donut-chart">
 						<div class="grey-header">
@@ -164,7 +164,7 @@
 									<div class="card-body text-center text-success">
 										<i class="fa-solid fa-user-doctor fa-10x"></i><br>
 										<p class="fs-4 text-center">
-											Total: <br><%= totalNumberOfDoctor %>
+										 <br>Cick to view
 										</p>
 									</div>
 								</div>
@@ -183,7 +183,7 @@
 							</div>
 							<div class="card my-card">
 								<div class="card-body text-center text-success">
-									<i class="fa-solid fa-user-doctor fa-10x"></i><br>
+									<i class="fa-solid fa-book fa-10x"></i><br>
 									<p class="fs-4 text-center">
 										Total: <br><%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
 									</p>

@@ -166,7 +166,7 @@
 	<div class="container p-3">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="card my-card">
+
 					<div class="card-body">
 						<p class="text-center text-success fs-3">Appointment Details</p>
 
@@ -256,7 +256,7 @@
 
 
 					</div>
-				</div>
+
 			</div>
 
 		</div>

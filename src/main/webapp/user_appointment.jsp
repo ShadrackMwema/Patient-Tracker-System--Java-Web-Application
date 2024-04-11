@@ -149,7 +149,7 @@
 			<div class="col-md-6 p-5">
 				<!-- for Background image -->
 				<!-- <img alt="" src="img/picDoc.jpg" width="500px" height="400px"> -->
-				<img alt="" src="img/Appoint.png" style="border-radius:10px">
+				<img alt="" src="img/Appoint.jpg" style="border-radius:10px">
 			</div>
 			
 			<!-- col-2 -->
@@ -253,20 +253,30 @@
 							</div>
 
 
-							<c:if test="${empty userObj}">
-								<div class="col-md-12">
-									<a href="user_login.jsp" class="btn my-bg-color text-white col-md-12">Submit</a>
-								</div>
-							</c:if>
 
-
+							<!-- If user is logged in, show the submit button -->
 							<c:if test="${not empty userObj}">
-
 								<div class="col-md-12">
 									<button type="submit" class="btn my-bg-color text-white col-md-12">Submit</button>
 								</div>
-
 							</c:if>
+
+							<c:if test="${empty userObj}">
+								<div class="col-md-12">
+									<button type="button" class="btn my-bg-color text-white col-md-12" onclick="redirectToLogin()">Submit</button>
+								</div>
+							</c:if>
+
+							<script>
+								function redirectToLogin() {
+									// Show an alert message
+									alert('Please log in to make an appointment');
+									// Redirect to the login page after the user clicks "OK" on the alert
+									window.location.href = 'user_login.jsp'; // Change '/path/to/login' to the actual path to your login page
+								}
+							</script>
+
+
 
 						</form>
 

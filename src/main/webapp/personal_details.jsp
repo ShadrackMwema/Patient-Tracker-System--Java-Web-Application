@@ -222,17 +222,6 @@
 </section>
 
 
-<footer class="site-footer">
-    <div class="text-center">
-        <p>
-            © Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
-        </p>
-
-        <a href="index.html#" class="go-top">
-            <i class="fa fa-angle-up"></i>
-        </a>
-    </div>
-</footer>
 
 
 <script src="Dashassets/js/Py4ZAUNCz9md.js"></script>

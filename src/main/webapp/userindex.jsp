@@ -20,7 +20,7 @@
     <link href="assets/css/utilities.css" rel="stylesheet">
 
 
-    <title>Home Page | healthTrace</title>
+    <title>User Page | healthTrace</title>
     <%@include file="component/allcss.jsp"%>
 
 
@@ -80,7 +80,7 @@
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>
 
-        <a href="index.jsp" class="logo" style="text-decoration: none;"><b>health<span style="font-variant: small-caps;">Trace</span></b></a>
+        <a href="userindex.jsp" class="logo" style="text-decoration: none;"><b>health<span style="font-variant: small-caps;">Trace</span></b></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -298,7 +298,7 @@
             © Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
         </p>
 
-        <a href="index.html#" class="go-top">
+        <a href="userindex.jsp#" class="go-top">
             <i class="fa fa-angle-up"></i>
         </a>
     </div>

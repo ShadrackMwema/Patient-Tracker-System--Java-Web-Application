@@ -114,7 +114,7 @@
 		<div id="sidebar" class="nav-collapse "style="border-radius: 10px;height: 600px;width: 210px;">
 
 			<ul class="sidebar-menu" id="nav-accordion">
-				<p class="centered"><a href="profile.html"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
+				<p class="centered"><a href="index.jsp"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
 				<h5 class="centered">Admin</h5>
 				<li class="mt">
 					<a class="active" href="index.jsp">
@@ -229,24 +229,29 @@
 				</div>
 
 				<!-- Specialists -->
-				<div class="col-xl-3 col-md-6 mb-4"data-bs-toggle="modal"
-					 data-bs-target="#exampleModal">
+				<div class="col-xl-3 col-md-6 mb-4">
+					<a href="specialist.jsp" style="text-decoration: none; color: inherit;">
 
-					<div class="card border-left-warning shadow h-100 py-2" data-bs-toggle="modal"
-						 data-bs-target="#exampleModal">
-						<div class="card-body">
-							<div class="row no-gutters align-items-center">
-								<div class="col mr-2">
-									<div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-										Specialists</div>
-									<div class="h5 mb-0 font-weight-bold text-gray-800">Total</div><%=totalNumberOfSpecialist%>
-								</div>
-								<div class="col-auto">
-									<i class="fa-solid fa-star-half-stroke fa-7x"></i>
+						<div class="card border-left-success shadow h-100 py-2">
+							<div class="card-body">
+								<div class="row no-gutters align-items-center">
+									<div class="col mr-2">
+										<div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+											Specialists</div>
+										<div class="h5 mb-0 font-weight-bold text-gray-800">Total Number:</div><%= totalNumberOfSpecialist %>
+
+									</div>
+
+									<div class="col-auto">
+										<i class="fa-solid fa-star-half-stroke fa-7x"></i>
+									</div>
+									<p class="fs-4 text-center">
+										<br>Cick to add
+									</p>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
 			</div>
@@ -259,9 +264,7 @@
 
 				<!-- Area Chart -->
 				<div class="col-xl-8 col-lg-7">
-					<div class="card shadow mb-4">
-						<!-- Card Header - Dropdown -->
-						<div
+					<div
 								class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
 							<h6 class="m-0 font-weight-bold text-primary">Usage Overview</h6>
 							<div class="dropdown no-arrow">
@@ -271,18 +274,17 @@
 								</a>
 								<div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
 									 aria-labelledby="dropdownMenuLink">
-									<div class="dropdown-header">Dropdown Header:</div>
-									<a class="dropdown-item" href="#">Action</a>
-									<a class="dropdown-item" href="#">Another action</a>
+									<div class="dropdown-header">Choose chart:</div>
+									<a class="dropdown-item" href="#">Pie chart</a>
+									<a class="dropdown-item" href="#">Area  action</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Something else here</a>
-								</div>
+							</div>
 							</div>
 						</div>
 						<!-- Card Body -->
 						<div class="card-body">
 							<div class="chart-area">
-								<canvas id="myAreaChart"></canvas>
+								<canvas id="barChart"></canvas>
 							</div>
 						</div>
 					</div>
@@ -340,7 +342,7 @@
 				© Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
 			</p>
 
-			<a href="index.html#" class="go-top">
+			<a href="index.jsp" class="go-top">
 				<i class="fa fa-angle-up"></i>
 			</a>
 		</div>
@@ -382,7 +384,39 @@
 		</div>
 	</div>
 
-
+	<!-- Bar Chart JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script>
+		var ctx = document.getElementById('barChart').getContext('2d');
+		var barChart = new Chart(ctx, {
+			type: 'bar',
+			data: {
+				labels: ['Doctors', 'Patients', 'Specialists'],
+				datasets: [{
+					label: 'Count',
+					data: [<%= totalNumberOfDoctor %>, <%= totalNumberOfUser %>, <%= totalNumberOfSpecialist %>],
+					backgroundColor: [
+						'rgba(255, 99, 132, 0.2)',
+						'rgba(54, 162, 235, 0.2)',
+						'rgba(255, 206, 86, 0.2)'
+					],
+					borderColor: [
+						'rgba(255, 99, 132, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)'
+					],
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					y: {
+						beginAtZero: true
+					}
+				}
+			}
+		});
+	</script>
 
 	<script src="../Dashassets/js/Py4ZAUNCz9md.js"></script>
 	<script src="../Dashassets/js/ze8gppJZjEMa.js"></script>
@@ -397,6 +431,7 @@
 
 	<script src="../Dashassets/js/cg3TL0eNXCcl.js"></script>
 	<script src="../Dashassets/js/Mj5aD5qfUaBz.js"></script>
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var unique_id = $.gritter.add({

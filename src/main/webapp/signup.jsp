@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+		 pageEncoding="UTF-8"%>
 
 <!-- for jstl tag -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -10,87 +10,119 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Signup Page</title>
-<!-- boostrap css -->
-<%@include file="component/allcss.jsp"%>
-<!-- end of boostrap css -->
+
+<link href="Dashassets/images/7zvDN2okWbny.png" rel="icon">
+<link href="Dashassets/images/V9OAuGdBb0Qh.png" rel="apple-touch-icon">
+
+<link href="Dashassets/css/503uKmQN8xls.css" rel="stylesheet">
+
+<link href="Dashassets/css/per8hcNp7jdl.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../Dashassets/css/bnsLJI6BAg3h.css">
+<link rel="stylesheet" type="text/css" href="../Dashassets/css/jz3x9DhP6jJ7.css">
+
+<link href="Dashassets/css/9NAoFREDLVA6.css" rel="stylesheet">
+<link href="Dashassets/css/l4gqiphJ7KXZ.css" rel="stylesheet">
+
+
+<!-- Boostrap CSS -->
+<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		crossorigin="anonymous">
+<!-- End Boostrap CSS -->
+
+<!-- Font awesome css -->
+<link rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+	  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+	  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- End Font awesome css -->
+
+<!--font awesome css-->
+<link rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Boostrap JS -->
+<%--<script--%>
+<%--		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"--%>
+<%--		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"--%>
+<%--		crossorigin="anonymous"></script>--%>
+
+
+<script async="" src="Dashassets/js/0vgv07pFj0mD.js"></script><script src="Dashassets/js/Mx6K2iHOd1T0.js"></script>
 
 <!-- customs css for this page -->
-<style type="text/css">
-.my-card {
-	box-shadow: 0px 0px 10px 1px maroon;
-	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
-}
-</style>
-<!-- end of customs css for this page -->
+
+<head>
+	<meta charset="UTF-8">
+	<title>User Login</title>
+	<%@include file="component/allcss.jsp"%>
+
+	<!-- customs css for this page -->
+	<style type="text/css">
+		.my-card {
+			box-shadow: 0px 0px 10px 1px #b4fafa;
+			/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
+		}
+	</style>
+	<!-- end of customs css for this page -->
 
 </head>
 <body>
-	<!-- navbar -->
-	<%@include file="component/navbar.jsp"%>
-	<!-- end navbar -->
+<!-- navbar -->
+<%@include file="component/navbar.jsp"%>
+<!-- end navbar -->
 
-	<!-- User Register -->
-	<div class="container p-5">
-		<div class="row">
-			<div class="col-md-4 offset-md-4">
-				<div class="card my-card">
-					<div class="card-header text-center text-white my-bg-color">
-						<!-- <p class="fs-4 text-center mt-1"><i class="fa-solid fa-users"></i> <br>User Login</p> -->
-						<p class="fs-4 text-center text-white mt-2">
-							<i class="fa fa-user-plus"></i> User Register
-						</p>
-					</div>
+
+
+<!-- <h1>User Login</h1> -->
+
+<!-- User Login -->
+<div class="container p-5">
+	<div class="row">
+		<div class="col-md-4 offset-md-4">
+			<div class="card my-card">
+				<div class="card-header text-center text-white my-bg-color">
+					<!-- <p class="fs-4 text-center mt-1"><i class="fa-solid fa-users"></i> <br>User Login</p> -->
+					<p class="fs-4 text-center text-white mt-2">
+						<i class="fa fa-group"></i> User signup
+					</p>
+				</div>
+
+				<div class="card">
 					<div class="card-body">
-						<!-- <p class="fs-4 text-center">User Register</p> -->
 
-						<!-- message print -->
-						<!-- for success msg -->
-						<c:if test="${not empty successMsg }">
-							<p class="text-center text-success fs-3">${successMsg}</p>
-							<c:remove var="successMsg" scope="session" />
-						</c:if>
-
-						<!-- for error msg -->
-						<c:if test="${not empty errorMsg }">
-							<p class="text-center text-danger fs-3">${errorMsg}</p>
-							<c:remove var="errorMsg" scope="session" />
-						</c:if>
-						<!-- End of message print -->
-
-						<!-- boostrap form -->
 						<form action="user_register" method="post">
 							<div class="mb-3">
-								<label class="form-label">Full Name</label> <input
-									name="fullName" type="text" placeholder="Enter full name"
-									class="form-control">
-
+								<label class="form-label">Full Name</label>
+								<input name="fullName" type="text" placeholder="Enter full name" class="form-control">
 							</div>
 							<div class="mb-3">
-								<label class="form-label">Email address</label> <input
-									name="email" type="email" placeholder="Enter Email"
-									class="form-control">
-								<div id="emailHelp" class="form-text">We'll never share
-									your email with anyone else.</div>
-							</div>
+								<label class="form-label">Email address</label>
+								<input name="email" type="email" placeholder="Enter Email" class="form-control">
+						</div>
 							<div class="mb-3">
-								<label class="form-label">Password</label> <input
-									name="password" type="password" placeholder="Enter password"
-									class="form-control">
-							</div>
+								<label class="form-label">Password</label>
+								<input name="password" type="password" placeholder="Enter password" class="form-control">
 
+							</div>
 							<button type="submit" class="btn my-bg-color text-white col-md-12">Register</button>
+							<p>Already have an account? <a href="user_login.jsp">Login</a></p>
+
 						</form>
-						<!-- <br>Don't have an account? <a href="#!" class="text-decoration-none">create one</a> -->
-						<!-- end of boostrap form -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End of User Register -->
+</div>
+<!-- End of User Login -->
+
+
+
+
+
 
 </body>
 </html>

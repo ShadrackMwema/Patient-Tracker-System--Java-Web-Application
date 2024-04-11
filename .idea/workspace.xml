@@ -11,12 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/personal_details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/specialist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/personal_details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Appoint.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/patient.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/doctor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/personal_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personal_details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +106,7 @@
     &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomePC/Desktop/TESTS/Patient-Monitoring-System--Java-Web-Application/src/main/webapp/Dashassets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomePC/Documents/Patient-Tracker-System--Java-Web-Application-Main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -334,7 +347,11 @@
       <workItem from="1710699421976" duration="3124000" />
       <workItem from="1710769301991" duration="33415000" />
       <workItem from="1711705185805" duration="373000" />
-      <workItem from="1711712608837" duration="4780000" />
+      <workItem from="1711712608837" duration="5258000" />
+      <workItem from="1712156763729" duration="726000" />
+      <workItem from="1712227471681" duration="1211000" />
+      <workItem from="1712480200955" duration="2347000" />
+      <workItem from="1712595146951" duration="27244000" />
     </task>
     <task id="LOCAL-00001" summary="Updating dashboards and navbars">
       <option name="closed" value="true" />
@@ -360,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711573759804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating dashboards and navbars">
+      <option name="closed" value="true" />
+      <created>1711745493177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711745493177</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,11 +426,6 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp</url>
           <line>102</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp</url>
-          <line>335</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/personal_details.jsp</url>

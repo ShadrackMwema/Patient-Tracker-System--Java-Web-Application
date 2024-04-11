@@ -47,8 +47,7 @@
 							<i class="fa-solid fa-user-doctor"></i> ${ doctorObj.fullName}
 						</button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-							<li><a class="dropdown-item" href="edit_profile.jsp">Edit
-								Profile</a></li>
+							<li><a class="dropdown-item" href="edit_profile.jsp">change password</a></li>
 							<li><a class="dropdown-item" href="../doctorLogout">Logout</a></li>
 
 
