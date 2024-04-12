@@ -193,25 +193,22 @@
 					</a>
 				</div>
 
-
 				<div class="col-md-4 col-sm-4 mb">
-					<a href="chatroom.jsp" style="text-decoration: none; color: inherit;">
-
-					<div class="green-panel pn">
-						<div class="green-header">
-							<h5>CHAT ROOM</h5>
-						</div>
-						<div class="card my-card">
-							<div class="card-body text-center text-success">
-								<i class="fa-solid fa-comments fa-10x"></i><br>
-								<p class="fs-4 text-center">
-
-									Total messages <br> <%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
-								</p>
+					<!-- Replace "chatroom.jsp" with your desired email address -->
+					<a href="mailto:example@example.com" style="text-decoration: none; color: inherit;">
+						<div class="green-panel pn">
+							<div class="green-header">
+								<h5>CHAT ROOM</h5>
+							</div>
+							<div class="card my-card">
+								<div class="card-body text-center text-success">
+									<i class="fa-solid fa-comments fa-10x"></i><br>
+									<p class="fs-4 text-center">
+										Open Gmail <br>To View Patients emails
+									</p>
+								</div>
 							</div>
 						</div>
-
-					</div>
 					</a>
 				</div>
 
@@ -220,33 +217,33 @@
 			<div class="row"style="margin-top: 20px">
 
 
-				<div class="col-md-8 mb"STYLE="margin-top: 20px">
-					<div class="message-p pn">
-						<div class="message-header">
-							<h5>DIRECT MESSAGE(DM)</h5>
-						</div>
-						<div class="row">
-							<div class="col-md-3 centered hidden-sm hidden-xs">
-								<i class="fa-solid fa-user  fa-4x"style="color: #44444b"></i>
-							</div>
-							<div class="col-md-9">
-								<p>
-									<name>Shad</name>
-									sent you a message.
-								</p>
-								<p class="small">3 hours ago</p>
-								<p class="message">Hello Doctor Wesonga. I think am going on just fine after the chemo.Thanks so much Doc...looking forward to see you on wednesday</p>
-								<form class="form-inline" role="form">
-									<div class="form-group">
-										<input type="text" class="form-control" id="exampleInputText" placeholder="Reply Dan">
-									</div>
-									<button type="submit" class="btn btn-default">Send</button>
-								</form>
-							</div>
-						</div>
-					</div>
+<%--				<div class="col-md-8 mb"STYLE="margin-top: 20px">--%>
+<%--					<div class="message-p pn">--%>
+<%--						<div class="message-header">--%>
+<%--							<h5>DIRECT MESSAGE(DM)</h5>--%>
+<%--						</div>--%>
+<%--						<div class="row">--%>
+<%--							<div class="col-md-3 centered hidden-sm hidden-xs">--%>
+<%--								<i class="fa-solid fa-user  fa-4x"style="color: #44444b"></i>--%>
+<%--							</div>--%>
+<%--							<div class="col-md-9">--%>
+<%--								<p>--%>
+<%--									<name>Shad</name>--%>
+<%--									sent you a message.--%>
+<%--								</p>--%>
+<%--								<p class="small">3 hours ago</p>--%>
+<%--								<p class="message">Hello Doctor Wesonga. I think am going on just fine after the chemo.Thanks so much Doc...looking forward to see you on wednesday</p>--%>
+<%--								<form class="form-inline" role="form">--%>
+<%--									<div class="form-group">--%>
+<%--										<input type="text" class="form-control" id="exampleInputText" placeholder="Reply Dan">--%>
+<%--									</div>--%>
+<%--									<button type="submit" class="btn btn-default">Send</button>--%>
+<%--								</form>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--					</div>--%>
 
-				</div>
+<%--				</div>--%>
 
 			</div>
 
@@ -269,7 +266,7 @@
 				© Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
 			</p>
 
-			<a href="index.html#" class="go-top">
+			<a href="index.jsp#" class="go-top">
 				<i class="fa fa-angle-up"></i>
 			</a>
 		</div>

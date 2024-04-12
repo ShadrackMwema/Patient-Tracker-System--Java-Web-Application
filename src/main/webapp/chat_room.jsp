@@ -1,6 +1,8 @@
 <%@page import="com.healthTrace.db.DBConnection"%>
 <%@page import="java.sql.Connection"%>
 <%@ page import="com.healthTrace.dao.DoctorDAO" %>
+<%@ page import="com.healthTrace.entity.Doctor" %>
+<%@ page import="java.util.List" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 
@@ -20,7 +22,7 @@
     <link href="assets/css/utilities.css" rel="stylesheet">
 
 
-    <title>User Page | healthTrace</title>
+    <title>ChatRoom | healthTrace</title>
     <%@include file="component/allcss.jsp"%>
 
 
@@ -66,14 +68,38 @@
     <script async="" src="Dashassets/js/0vgv07pFj0mD.js"></script><script src="Dashassets/js/Mx6K2iHOd1T0.js"></script>
 
     <!-- customs css for this page -->
+    <style>
 
-<style>
-    .clickable-box {
-    cursor: pointer;
-}
-</style>
+        /* CSS */
+        .button-10 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 6px 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+            border-radius: 6px;
+            border: none;
+
+            color: #fff;
+            background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+            background-origin: border-box;
+            box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-10:focus {
+            box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+            outline: 0;
+        }
+
+    </style>
+
 </head>
 <body>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-danger"> -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top"style="background-color: #348aa1;padding-top: 50px;padding-bottom: 30px;padding-left: 60px;padding-right: 60px">
     <div class="container-fluid">
         <div class="sidebar-toggle-box">
@@ -97,7 +123,7 @@
 
                 <!-- means user is log in -->
                 <li class="nav-item"><p class="nav-link active"
-                                        aria-current="page" ><i class="fa-regular fa-face-smile-beam"></i> Welcome Back ${userObj.fullName}!</p></li>
+                                        aria-current="page" ><i class="fa-regular fa-face-smile-beam"></i> Welcome Back!</p></li>
 
 
                 <div class="dropdown">
@@ -131,12 +157,11 @@
         </div>
     </div>
 </nav>
-
 <aside>
     <div id="sidebar" class="nav-collapse "style="border-radius: 10px;height: 600px;width: 210px;">
 
         <ul class="sidebar-menu" id="nav-accordion">
-            <p class="centered"><a href="userindex.jsp"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
+            <p class="centered"><a href="profile.html"><i class="fa-solid fa-user  fa-10x"style="color: ghostwhite"></i> </a></p>
             <c:if test="${not empty userObj}">
                 <div class="centered" style="font-size: 24px;color: ghostwhite"> <!-- Adjust font size as needed -->
                         ${userObj.fullName}
@@ -145,10 +170,11 @@
             <li class="mt">
                 <a class="active" href="userindex.jsp">
                     <i class="fa fa-dashboard"></i>
-                    <span>Overview</span>
+                    <span>Dashboard</span>
                 </a>
             </li>
             </li>
+
             <li class="sub-menu">
                 <a href="logged_In_appointment.jsp">
                     <i class="fa fa-book"></i>
@@ -157,16 +183,14 @@
 
             </li>
 
-            <li>
 
 
             <li class="sub-menu">
-                <a href="chat_room.jsp">
+                <a href="chatroom.jsp">
                     <i class="fa fa-comments-o"></i>
                     <span>Chat Room</span>
                 </a>
-          </li>
-                </ul>
+
             </li>
         </ul>
 
@@ -176,132 +200,78 @@
 
 
 <section id="main-content">
-    <section class="wrapper">
 
 
-        <div class="row mt">
+    </div>
 
-            <div class="col-md-4 col-sm-4 mb">
-                <a href="personal_details.jsp" style="text-decoration: none; color: inherit;">
+    <!-- col-2 --><div style="position: relative;margin: 30px;background-color: #afc8fa;padding: 10px">
 
-                <div class="grey-panel pn donut-chart">
-                    <div class="grey-header">
-                        <h5>PERSONAL DETAILS</h5>
-                    </div>
+    <!-- HTML !-->
+    <!-- message print -->
+    <!-- for success msg -->
+    <c:if test="${not empty successMsg }">
+        <p class="text-center text-success fs-5">${successMsg}</p>
+        <c:remove var="successMsg" scope="session" />
+    </c:if>
 
-                    <div class="card my-card">
-                        <div class="card-body text-center text-success">
-                            <i class="fa-solid fa-user-plus fa-10x"></i><br>
-                            <p class="fs-4 text-center">
-                             click to view
-                            </p>
-                        </div>
-                    </div>
+    <!-- for error msg -->
+    <c:if test="${not empty errorMsg }">
+        <p class="text-center text-danger fs-5">${errorMsg}</p>
+        <c:remove var="errorMsg" scope="session" />
+    </c:if>
+    <!-- End of message print -->
 
+    <p>Select Doctor to send an email</p>
+        <div class="col-md-6">
 
-                </div>
-                </a>
+            <label class="form-label">Doctor</label>
+            <select required="required" class="form-control" id="doctorSelect" name="doctorNameSelect">
+            <option selected="selected" disabled="disabled">---Select---</option>
 
-            </div>
-
-             <div class="col-md-4 col-sm-4 mb">
-                 <a href="viewAppointment.jsp" style="text-decoration: none; color: inherit;">
-
-                 <div class="darkblue-panel pn clickable-box">
-                        <div class="darkblue-header">
-                            <h5>APPOINTMENTS</h5>
-                        </div>
-                        <div class="card my-card">
-                            <div class="card-body text-center text-success">
-                                <i class="fa-solid fa-calendar-check fa-10x"></i><br>
-                                <p class="fs-4 text-center">Make new appointments  <br></p>
-                                <p class="fs-4 text-center">View appointments  <br></p>
-                            </div>
-                        </div>
-                    </div>
-                 </a>
-                </div>
+                <%
+                    DoctorDAO doctorDAO = new DoctorDAO(DBConnection.getConn());
+                    List<Doctor> listOfDoctors = doctorDAO.getAllDoctor(); // Ensure method name is correct
+                    for (Doctor doctor : listOfDoctors) {
+                %>
+                <option value="<%= doctor.getId() %>" data-email="<%= doctor.getEmail() %>">
+                    <%= doctor.getFullName() %> (<%= doctor.getEmail() %>)
+                </option>
+                <%
+                    }
+                %>
 
 
-            <div class="col-md-4 col-sm-4 mb">
-                <a href="chat_room.jsp" style="text-decoration: none; color: inherit;">
-                <div class="green-panel pn">
-                    <div class="green-header">
-                        <h5>CHAT ROOM</h5>
-                    </div>
-                    <div class="card my-card">
-                        <div class="card-body text-center text-success">
-                            <i class="fa-solid fa-comments fa-10x"></i><br>
-                            <p class="fs-4 text-center">
-
-                                send mail<br> </p>
-                        </div>
-                    </div>
-
-                </div>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="row"style="margin-top: 20px">
-
-
-<%--            <div class="col-md-8 mb"STYLE="margin-top: 20px">--%>
-<%--                <div class="message-p pn">--%>
-<%--                    <div class="message-header">--%>
-<%--                        <h5>DIRECT MESSAGE(DM)</h5>--%>
-<%--                    </div>--%>
-<%--                    <div class="row">--%>
-<%--                        <div class="col-md-3 centered hidden-sm hidden-xs">--%>
-<%--                            <i class="fa-solid fa-user  fa-4x"style="color: #44444b"></i>--%>
-
-<%--                        </div>--%>
-<%--                        <div class="col-md-9">--%>
-<%--                            <p>--%>
-<%--                                <name>Doctor Wesonga</name>--%>
-<%--                                sent you a message.--%>
-<%--                            </p>--%>
-<%--                            <p class="small">3 hours ago</p>--%>
-<%--                            <p class="message">Hello Doctor Wesonga. I think am going on just fine after the chemo.Thanks so much Doc...looking forward to see you on wednesday</p>--%>
-<%--                            <form class="form-inline" role="form">--%>
-<%--                                <div class="form-group">--%>
-<%--                                    <input type="text" class="form-control" id="exampleInputText" placeholder="Reply Doc">--%>
-<%--                                </div>--%>
-<%--                                <button type="submit" class="btn btn-default">Send</button>--%>
-<%--                            </form>--%>
-<%--                        </div>--%>
-<%--                    </div>--%>
-<%--                </div>--%>
-
-<%--            </div>--%>
-
+                <!-- <option>Doctor name</option> -->
+        </select>
         </div>
 
 
+        <!-- below are visible to right side part of form-->
+    <div class="centered">
+        <a href="chat_room.jsp" id="sendMailLink" class="btn btn-outline-primary">Send Email</a>
+    </div>
 
 
-        </div>
+    <script>
+        document.getElementById('doctorSelect').addEventListener('change', function() {
+            var selectedOption = this.options[this.selectedIndex];
+            var mailtoLink = document.getElementById('sendMailLink');
+            mailtoLink.href = 'mailto:' + selectedOption.getAttribute('data-email'); // Directly set the mailto link
+        });
+
+
+    </script>
 
 
 
-        </div>
+    </form>
 
-    </section>
+    <!-- end of boostrap form -->
+
+</div>
 </section>
 
 
-<footer class="site-footer">
-    <div class="text-center">
-        <p>
-            © Copyrights 2024<strong>Group 12</strong>. All Rights Reserved
-        </p>
-
-        <a href="userindex.jsp#" class="go-top">
-            <i class="fa fa-angle-up"></i>
-        </a>
-    </div>
-</footer>
 
 
 <script src="Dashassets/js/Py4ZAUNCz9md.js"></script>
@@ -317,26 +287,7 @@
 
 <script src="Dashassets/js/cg3TL0eNXCcl.js"></script>
 <script src="Dashassets/js/Mj5aD5qfUaBz.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        var unique_id = $.gritter.add({
-            // (string | mandatory) the heading of the notification
-            title: 'Welcome to healthTrace!',
-            // (string | mandatory) the text inside the notification
-            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',
-            // (string | optional) the image to display on the left
-            image: 'img/ui-sam.jpg',
-            // (bool | optional) if you want it to fade out on its own or just sit there
-            sticky: false,
-            // (int | optional) the time you want it to be alive for before fading out
-            time: 8000,
-            // (string | optional) the class name you want to apply to that specific message
-            class_name: 'my-sticky-class'
-        });
 
-        return false;
-    });
-</script>
 <script type="application/javascript">
     $(document).ready(function() {
         $("#date-popover").popover({

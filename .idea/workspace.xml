@@ -11,25 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f166b96-1ac0-4f40-a72c-49d9d1d8d607" name="Changes" comment="Updating dashboards and navbars">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/specialist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/personal_details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Appoint.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chat_room.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthTrace/user/servlet/AppointmentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/doctor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit_doctor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/view_doctor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/logged_In_appointment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/personal_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personal_details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userindex.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +335,7 @@
       <workItem from="1712156763729" duration="726000" />
       <workItem from="1712227471681" duration="1211000" />
       <workItem from="1712480200955" duration="2347000" />
-      <workItem from="1712595146951" duration="27244000" />
+      <workItem from="1712595146951" duration="34259000" />
     </task>
     <task id="LOCAL-00001" summary="Updating dashboards and navbars">
       <option name="closed" value="true" />
@@ -385,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711745493177</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updating dashboards and navbars">
+      <option name="closed" value="true" />
+      <created>1712846939790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712846939790</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
